@@ -3,7 +3,7 @@ import React from 'react'
 function Tail() {
   return (
     <div>
-        <div className="mx-auto flex max-w-lg flex-col px-4 py-20 lg:max-w-screen-xl lg:flex-row">
+        <div className="mx-auto flex max-w-lg flex-col px-4 py-10 lg:max-w-screen-xl lg:flex-row">
   <div className="mb-10 max-w-lg lg:mb-0 lg:pr-16 xl:pr-20">
     <div className="mb-5 text-4xl font-bold text-blue-600">Analytics App With a an Edge. Innovation.</div>
     <div className="mb-5 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus modi, magni repellat doloremque autem tempore facere adipisci nam ratione vitae quibusdam earum optio laudantium ipsum aliquid harum nulla.</div>
