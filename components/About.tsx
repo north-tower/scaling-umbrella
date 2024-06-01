@@ -13,7 +13,7 @@ function About() {
   </div>
   <div className="flex w-full flex-col md:w-2/3">
     <div className="flex justify-center pt-12 md:justify-start md:pl-12">
-      <a href="#" className="text-2xl font-bold text-gray-800 bg-yellow-400 px-2 py-1"> heavylifting.com </a>
+      <a href="#" className="text-2xl font-bold text-gray-800 bg-yellow-400 px-2 py-1">Contact Us </a>
     </div>
     <div className="my-auto flex max-w-screen-md flex-col justify-center px-6 md:pl-12 pt-8 sm:pt-0 md:justify-start">
       <p className="text-center text-3xl font-bold md:text-left">For your bookkeeping needs, so you can focus on growing your business.</p>
@@ -21,32 +21,21 @@ function About() {
       <form className="flex flex-col items-stretch pt-3 pb-8 md:pt-8">
         <div className="grid gap-x-4 gap-y-3 sm:grid-cols-2">
           <label className="block" >
-            <p className="mb-1 mt-2 text-sm text-gray-600">Name</p>
+            <p className="mb-1 mt-2 text-sm text-white">Name</p>
             <input className="w-full rounded-md border bg-white py-2 px-2 outline-none ring-yellow-500 focus:ring-2" type="text" placeholder="Enter your name" />
           </label>
           <label className="block" >
-            <p className="mb-1 mt-2 text-sm text-gray-600">Phone Number</p>
+            <p className="mb-1 mt-2 text-sm text-white">Phone Number</p>
             <input className="w-full rounded-md border bg-white py-2 px-2 outline-none ring-yellow-500 focus:ring-2" type="phone" placeholder="Enter your name" />
           </label>
-          <label className="block" >
-            <p className="mb-1 mt-2 text-sm text-gray-600">Man Power</p>
-            <select className="w-full rounded-md border bg-white py-2 px-2 outline-none ring-yellow-500 focus:ring-2" >
-              <option value="2">2 Men</option>
-              <option value="5" selected>5 Men</option>
-              <option value="10">10 Men</option>
-            </select>
-          </label>
-          <label className="block" >
-            <p className="mb-1 mt-2 text-sm text-gray-600">Street Address</p>
-            <input className="w-full rounded-md border bg-white py-2 px-2 outline-none ring-yellow-500 focus:ring-2" type="text" placeholder="Enter your name" />
-          </label>
+         
           <label className="block sm:col-span-2">
-            <p className="mb-1 mt-2 text-sm text-gray-600">Message</p>
+            <p className="mb-1 mt-2 text-sm text-white">Message</p>
             <textarea className="h-32 w-full rounded-md border bg-white py-2 px-2 outline-none ring-yellow-500 focus:ring-2"  placeholder="Write your special requirements here"></textarea>
           </label>
         </div>
         <div className="block">
-          <label className="inline-block text-sm text-gray-500" > By clicking submit you agree to the <a className="underline" href="#">Terms and Conditions</a></label>
+          <label className="inline-block text-sm text-white" > By clicking submit you agree to the <a className="underline" href="#">Terms and Conditions</a></label>
         </div>
         <button type="submit" className="mt-6 rounded-full bg-yellow-400 px-4 py-2 text-center text-base font-semibold
          font- shadow-md outline-none ring-yellow-500 ring-offset-2 transition hover:bg-yellow-400 focus:ring-2 md:w-40">Submit</button>
