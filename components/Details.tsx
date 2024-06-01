@@ -21,16 +21,16 @@ function Details() {
         <p className="text-lg text-white">Easily input, categorize, and track all your business expenses in one place.</p>
       </div>
       <div>
-        <p className="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Never miss deadlines</p>
-        <p className="text-lg text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nihil reprehenderit laboriosam, exercitationem consectetur deserunt aliquam ab maiores!</p>
+        <p className="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Income Tracking</p>
+        <p className="text-lg text-white">Record and categorize all your business income for accurate financial management.</p>
       </div>
       <div>
-        <p className="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Super Intuitive</p>
-        <p className="text-lg text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nihil reprehenderit laboriosam, exercitationem consectetur deserunt aliquam ab maiores!</p>
+        <p className="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Invoices and Receipts</p>
+        <p className="text-lg text-white">Create and manage invoices and upload or scan receipts effortlessly.</p>
       </div>
       <div>
-        <p className="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Speedy Websites</p>
-        <p className="text-lg text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nihil reprehenderit laboriosam, exercitationem consectetur deserunt aliquam ab maiores!</p>
+        <p className="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Financial Reports </p>
+        <p className="text-lg text-gray-800">Generate detailed financial reports to analyze your business performance</p>
       </div>
     </div>
   </div>
