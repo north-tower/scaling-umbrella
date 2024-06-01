@@ -30,7 +30,7 @@ function Details() {
       </div>
       <div>
         <p className="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Financial Reports </p>
-        <p className="text-lg text-gray-800">Generate detailed financial reports to analyze your business performance</p>
+        <p className="text-lg text-white">Generate detailed financial reports to analyze your business performance</p>
       </div>
     </div>
   </div>
