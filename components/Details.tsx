@@ -17,8 +17,8 @@ function Details() {
     <span className="text-indigo-600"> revolutionary</span> way to build to handle bookkeeping</h2>
     <div className="grid gap-y-12 gap-x-8 lg:grid-cols-2">
       <div>
-        <p className="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Launch Websites in minutes</p>
-        <p className="text-lg text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nihil reprehenderit laboriosam, exercitationem consectetur deserunt aliquam ab maiores!</p>
+        <p className="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Expense Tracking</p>
+        <p className="text-lg text-white">Easily input, categorize, and track all your business expenses in one place.</p>
       </div>
       <div>
         <p className="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Never miss deadlines</p>
