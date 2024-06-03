@@ -13,7 +13,7 @@ function Tail() {
     </div>
   </div>
   <div className="mr-10 mb-6 lg:mb-0">
-    <img src="/images/Rs9HCLrp_0y7g8Zp8h8p9.png" className="shadow-blue-600/10 w-full max-w-sm object-contain object-left shadow-lg" />
+    {/* <img src="/images/Rs9HCLrp_0y7g8Zp8h8p9.png" className="shadow-blue-600/10 w-full max-w-sm object-contain object-left shadow-lg" /> */}
     <div className="p-4">
       <p className="mb-1 font-medium uppercase text-blue-600">Who we are</p>
       <h5 className="text-white">Whether you're a small business owner, a freelancer, or an accountant, our app is designed to simplify your financial management processes, giving you more time to focus on what you do best—growing your business.!</h5>
@@ -25,7 +25,7 @@ function Tail() {
     </div>
   </div>
   <div className="">
-    <img src="/images/aaFKzowNcgxqSdxMw11na.png" className="shadow-blue-600/10 w-full max-w-sm object-contain object-left shadow-lg" />
+    {/* <img src="/images/aaFKzowNcgxqSdxMw11na.png" className="shadow-blue-600/10 w-full max-w-sm object-contain object-left shadow-lg" /> */}
     <div className="p-4">
       <p className="mb-1 font-medium uppercase text-blue-600">Our Practices</p>
       <h5 className="text-white">“Our commitment to excellence is reflected in every aspect of our app,” says [CEO's Name], CEO of [Your Company]. “We focus on providing intuitive features and top-notch security so that businesses can manage their finances with confidence. At [Your App Name], we’re not just offering a service; we’re offering peace of mind and the foundation for smarter business growth.”!</h5>
