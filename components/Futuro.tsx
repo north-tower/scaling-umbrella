@@ -67,35 +67,6 @@ function Futuro() {
     Learn More
   </button>
 </div>
-
-
-
-      <div className="">
-       
-        <div className="">
-          <h3 className="text-4xl">Get advantage over others</h3>
-          <p className="mt-6 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ipsa delectus quod?</p>
-          <button className="mt-4 rounded-lg bg-blue-700 px-6 py-2 text-white transition hover:translate-y-1">Learn more</button>
-        </div>
-      </div>
-
-      <div className="">
-        <img className="mx-auto h-56 object-contain md:order-2 md:ml-0 md:object-left" src="/images/6SD_s9DepFaNBNOeFKeoG.png" alt="" />
-        <div className="">
-          <h3 className="text-4xl">Recover lost revenue</h3>
-          <p className="mt-6 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ipsa delectus quod?</p>
-          <button className="mt-4 rounded-lg bg-blue-700 px-6 py-2 text-white transition hover:translate-y-1">Learn more</button>
-        </div>
-      </div>
-
-      <div className="">
-        <img className="mx-auto h-56 object-contain md:order-2 md:ml-0 md:object-left" src="/images/y4CZSruoLgKdA6Y6mzQnT.png" alt="" />
-        <div className="">
-          <h3 className="text-4xl">Improve Customer Loyalty</h3>
-          <p className="mt-6 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ipsa delectus quod?</p>
-          <button className="mt-4 rounded-lg bg-blue-700 px-6 py-2 text-white transition hover:translate-y-1">Learn more</button>
-        </div>
-      </div>
     </div>
   </div>
 </section>
