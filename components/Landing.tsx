@@ -17,7 +17,9 @@ function Landing() {
           <span className="relative inline-flex justify-center whitespace-nowrap font-bold "> Empowering Business <br className="lg:hidden" /> Success</span>
         </h1>
         <p className="mx-auto mt-10 max-w-md text-base leading-7 text-gray-300">
-        Unlock the power of unparalleled expertise in finance and administration, meticulously customized and meticulously tailored to address the unique needs and challenges encountered at every stage of your company's evolution and growth trajectory, guaranteeing unmatched support, seamless scalability, and enduring success.</p>
+        Unlock the power of unparalleled expertise in finance and administration, meticulously customized and meticulously tailored to address the unique 
+        needs and challenges encountered at every stage of your companys evolution and growth trajectory, guaranteeing unmatched support,
+         seamless scalability, and enduring success.</p>
 
         
       </div>

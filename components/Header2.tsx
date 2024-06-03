@@ -139,7 +139,7 @@ function Header2() {
                     Who we help
                 </a>
                 <a href="#" className="font-semibold leading-6 text-white">
-                    What's included
+                    Whats included
                 </a>
                 <a href="#" className="font-semibold leading-6 text-white">
                     About Us

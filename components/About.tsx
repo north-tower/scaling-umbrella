@@ -7,7 +7,7 @@ function About() {
   <div className="relative hidden h-screen select-none flex-col justify-center bg-slate-600 text-center md:flex md:w-1/3">
     {/* <img className="mx-auto w-56 max-w-lg rounded-lg object-cover" src="/images/0Vipqj6it1eD-pYG5gPJD.png" /> */}
     <div className="mx-auto py-16 px-8 text-white">
-      <p className="my-6 text-4xl text-white font-bold leading-10">We'll do the <span className="truncate border-b-8 border-yellow-400 font-bold text-yellow-400">heavy lifting</span></p>
+      <p className="my-6 text-4xl text-white font-bold leading-10">Well do the <span className="truncate border-b-8 border-yellow-400 font-bold text-yellow-400">heavy lifting</span></p>
       <p className="mb-4 text-lg font-medium">For your bookkeeping needs, so you can focus on growing your business.</p>
     </div>
   </div>

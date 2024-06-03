@@ -5,7 +5,8 @@ function Details() {
     <div className="bg-black">
         <section className="mx-auto flex max-w-lg flex-col px-4 py-10 lg:max-w-screen-xl lg:flex-row">
   <div className="max-w-md pr-20 lg:pt-28">
-    <img src="https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/601074ed0f05cd25097215a4_6002086f72b7277e1f01d682_ryan-morrison-illustration-1.png" alt="" />
+    <img src="https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/601074ed0f05cd25097215a4_6002086f72b7277e1f01d682_ryan-morrison-illustration-1.png" 
+    alt="" />
   </div>
   <div className="">
     <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-indigo-600 text-white shadow-lg shadow-indigo-600/20">
@@ -16,7 +17,9 @@ function Details() {
     <h2 className="mb-10 max-w-lg text-white text-4xl font-bold leading-snug lg:text-4xl lg:leading-snug">A 
     <span className="text-indigo-600"> revolutionary</span> way to handle bookkeeping</h2>
     <div className="grid gap-y-12 gap-x-8 lg:grid-cols-1 text-white text-2xl">
-    Welcome to faAs, the ultimate solution for seamless and efficient bookkeeping tailored to meet the needs of modern businesses. Whether you're a small business owner, a freelancer, or an accountant, our app is designed to simplify your financial management processes, giving you more time to focus on what you do best—growing your business.
+    Welcome to faAs, the ultimate solution for seamless and efficient bookkeeping tailored to meet the needs of modern businesses. Whether youre 
+    a small business owner, a freelancer, or an accountant, our app is designed to simplify your financial management processes, giving you more
+     time to focus on what you do best—growing your business.
     </div>
   </div>
 </section>
