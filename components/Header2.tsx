@@ -153,7 +153,7 @@ function Header2() {
             </div>
         </nav>
 
-        <Dialog as="div"
+        {/* <Dialog as="div"
         className="lg:hidden"
         open={mobileMenuOpen}
         onClose={setMobileMenuOpen}>
@@ -227,7 +227,7 @@ function Header2() {
                 </div>
             </Dialog.Panel>
                 
-        </Dialog>
+        </Dialog> */}
     </header>
   )
 }

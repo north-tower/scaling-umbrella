@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Details from "@/components/Details";
+import Footer from "@/components/Footer";
 import Futuro from "@/components/Futuro";
 import Grow from "@/components/Grow";
 import Header2 from "@/components/Header2";
@@ -38,6 +39,9 @@ export default function Home() {
       <Futuro />
     </section>
 
+    <section className='snap-center'>
+      <Footer />
+    </section>
     </div>
     
     </main>
