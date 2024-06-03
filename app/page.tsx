@@ -21,22 +21,19 @@ export default function Home() {
     <section className='snap-center'>
         <Details />
     </section>
-
-
- <section className='snap-center'>
- <Hero />
-
- </section>
- 
- <section className='snap-center'>
-<Tail />
-</section>
+    <section className='snap-center'>
+      <Hero />
+    </section>
+    <section className='snap-center'>
+      <Tail />
+    </section>
+    <section className='snap-center'>
+      <Grow />
+    </section>
 <section className='snap-center'>
 <About />
 </section>
-<section className='snap-center'>
-      <Grow />
-      </section>
+
 <section className='snap-center'>
 <Futuro />
 </section>

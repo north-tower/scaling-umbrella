@@ -2,7 +2,7 @@ import React from 'react'
 
 function Tail() {
   return (
-    <div>
+    <div className='bg-black'>
         <div className="mx-auto flex max-w-lg flex-col px-4 py-10 lg:max-w-screen-xl lg:flex-row">
   <div className="mb-10 max-w-lg lg:mb-0 lg:pr-16 xl:pr-20">
     <div className="mb-5 text-4xl font-bold text-blue-600">Financial App With a an Edge. Innovation.</div>

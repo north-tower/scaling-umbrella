@@ -6,9 +6,6 @@ function Hero() {
 
 <div className="relative">
   <div className="absolute inset-0 bottom-32 -z-10 bg-gradient-to-br from-black to-black"></div>
-
- 
-
   <div className="mx-auto flex max-w-screen-md flex-col">
     <h1 className="mt-10 text-center text-3xl font-bold text-white sm:mt-20 sm:text-5xl">Your goto faAs</h1>
     <p className="mt-6 text-center text-white">Welcome to faAs, the ultimate solution for seamless and efficient bookkeeping tailored to meet the needs of modern businesses. Whether you're a small business owner, a freelancer, or an accountant, our app is designed to simplify your financial management processes, giving you more time to focus on what you do best—growing your business.</p>
