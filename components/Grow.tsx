@@ -38,6 +38,14 @@ function Grow() {
         <p className="relative m-0 text-2xl font-black text-blue-600">Conversion Metrics</p>
         <p className="relative mt-5 text-gray-600">Our conversion rate is 20%, meaning one in five visitors signs up for our app.</p>
       </div>
+      <div className="backdrop-blur-lg relative mb-3 rounded-3xl border bg-white px-12 py-10 text-left shadow lg:px-12">
+        <p className="relative m-0 text-2xl font-black text-blue-600">Operational Metrics</p>
+        <p className="relative mt-5 text-gray-600">Our average support response time is under 30 minutes, ensuring timely assistance.</p>
+      </div>
+      <div className="backdrop-blur-lg relative mb-3 rounded-3xl border bg-white px-12 py-10 text-left shadow lg:px-12">
+        <p className="relative m-0 text-2xl font-black text-blue-600">Growth Metrics</p>
+        <p className="relative mt-5 text-gray-600">We have captured 15% of our target market, showing significant penetration and acceptance.</p>
+      </div>
     </div>
   </div>
 </section>
