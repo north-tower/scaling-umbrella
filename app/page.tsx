@@ -2,21 +2,32 @@ import About from "@/components/About";
 import Details from "@/components/Details";
 import Futuro from "@/components/Futuro";
 import Grow from "@/components/Grow";
+import Header2 from "@/components/Header2";
 import Hero from "@/components/Hero";
+import Landing from "@/components/Landing";
 import Tail from "@/components/Tail";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="">
-    
+    <main >
+    <div className="max-w-8xl"> 
+    <section className='snap-center'>
+      <Header2 />
+    </section>
+    <section className='snap-center'>
+        <Landing />
+    </section>
+    <section className='snap-center'>
+        <Details />
+    </section>
+
+
  <section className='snap-center'>
  <Hero />
 
  </section>
- <section className='snap-center'>
-        <Details />
-        </section>
+ 
  <section className='snap-center'>
 <Tail />
 </section>
@@ -29,6 +40,9 @@ export default function Home() {
 <section className='snap-center'>
 <Futuro />
 </section>
+
+    </div>
+    
     </main>
   );
 }

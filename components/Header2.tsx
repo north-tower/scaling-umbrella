@@ -47,7 +47,7 @@ function Header2() {
 
 
   return (
-    <header className="bg-gray-800">
+    <header className="bg-black">
         <nav className="mx-auto flex max-w-7xl items-center
         justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
@@ -135,19 +135,19 @@ function Header2() {
                 <a href="#" className="font-semibold leading-6 text-white">
                     Home
                 </a>
-                <a href="#" className="text-sm font-semibold leading-6 text-white">
+                <a href="#" className="font-semibold leading-6 text-white">
                     Who we help
                 </a>
-                <a href="#" className="text-sm font-semibold leading-6 text-white">
+                <a href="#" className="font-semibold leading-6 text-white">
                     What's included
                 </a>
-                <a href="#" className="text-sm font-semibold leading-6 text-white">
+                <a href="#" className="font-semibold leading-6 text-white">
                     About Us
                 </a>
             </Popover.Group>
 
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a href="#" className="text-sm font-semibold leading-6 text-white">
+                <a href="#" className="font-semibold leading-6 text-white">
                     Log in <span aria-hidden="true">&rarr;</span>
                 </a>
             </div>

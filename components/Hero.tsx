@@ -7,28 +7,7 @@ function Hero() {
 <div className="relative">
   <div className="absolute inset-0 bottom-32 -z-10 bg-gradient-to-br from-black to-black"></div>
 
-  <header className="text-white shadow">
-    <div className="relative flex max-w-screen-xl flex-col overflow-hidden px-4 py-4 sm:mx-auto sm:flex-row sm:items-center">
-      <a href="#" className="cursor-pointer whitespace-nowrap font-black">THE FUTUR</a>
-      <input type="checkbox" className="peer hidden" id="navbar-open" />
-      <label className="absolute top-5 right-7 cursor-pointer sm:hidden" >
-        <span className="sr-only">Toggle Navigation</span>
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </label>
-      <nav aria-label="Header Navigation" className="flex max-h-0 w-full flex-col items-center justify-between overflow-hidden transition-all peer-checked:mt-8 peer-checked:max-h-56 sm:ml-24 sm:max-h-full sm:flex-row sm:items-start">
-        <ul className="flex flex-col items-center space-y-2 sm:ml-auto sm:flex-row sm:space-y-0">
-          <li className="font-bold sm:mr-12"><a href="#">Pricing</a></li>
-          <li className="sm:mr-12"><a href="#">Features</a></li>
-          <li className="sm:mr-12"><a href="#">Support</a></li>
-          <li className="sm:mr-12">
-            <button className="rounded-full border-2 border-white px-6 py-1 text-white transition-colors hover:bg-white hover:text-indigo-600">Login</button>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+ 
 
   <div className="mx-auto flex max-w-screen-md flex-col">
     <h1 className="mt-10 text-center text-3xl font-bold text-white sm:mt-20 sm:text-5xl">Your goto faAs</h1>

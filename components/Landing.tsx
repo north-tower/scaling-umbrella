@@ -3,7 +3,7 @@ import React from 'react'
 function Landing() {
   return (
     <div>
-        <div className="overflow-x-hidden bg-gray-800">
+        <div className="overflow-x-hidden bg-black">
  
 
   <section className="relative py-12 sm:py-16 lg:pt-20 xl:pb-0">
