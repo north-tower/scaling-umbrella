@@ -11,10 +11,10 @@ function Landing() {
  
     <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-3xl text-center">
-        <h1 className="mt-5 text-3xl font-light leading-snug text-white sm:text-5xl sm:leading-snug lg:text-6xl lg:leading-snug">
+        <h1 className="mt-5 text-3xl font-light leading-snug text-white  sm:leading-snug lg:text-6xl lg:leading-snug">
           Cultivating <br className="sm:hidden" />
           Financial Clarity
-          <span className="relative inline-flex justify-center whitespace-nowrap font-bold"> Empowering Business Success</span>
+          <span className="relative inline-flex justify-center whitespace-nowrap font-bold "> Empowering Business <br className="lg:hidden" /> Success</span>
         </h1>
         <p className="mx-auto mt-10 max-w-md text-base leading-7 text-gray-300">
         Unlock the power of unparalleled expertise in finance and administration, meticulously customized and meticulously tailored to address the unique needs and challenges encountered at every stage of your company's evolution and growth trajectory, guaranteeing unmatched support, seamless scalability, and enduring success.</p>
