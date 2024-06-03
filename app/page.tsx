@@ -22,21 +22,21 @@ export default function Home() {
         <Details />
     </section>
     <section className='snap-center'>
-      <Hero />
-    </section>
-    <section className='snap-center'>
       <Tail />
     </section>
     <section className='snap-center'>
+      <Hero />
+    </section>
+    
+    <section className='snap-center'>
       <Grow />
     </section>
-<section className='snap-center'>
-<About />
-</section>
-
-<section className='snap-center'>
-<Futuro />
-</section>
+    <section className='snap-center'>
+      <About />
+    </section>
+    <section className='snap-center'>
+      <Futuro />
+    </section>
 
     </div>
     
