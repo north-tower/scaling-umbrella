@@ -5,7 +5,7 @@ import { Fragment, useState } from "react";
 import { Bars3Icon , ChatBubbleLeftIcon, HomeIcon, 
     PaperAirplaneIcon,
     ChevronDownIcon, 
-    PhoneIcon, PlayCircleIcon,
+    PhoneIcon, PlayCircleIcon,UserGroupIcon,
      XMarkIcon} from "@heroicons/react/24/solid";
 import { Dialog, Disclosure, Popover, Transition } from
  "@headlessui/react"
@@ -19,10 +19,10 @@ function Header2() {
 
     const products = [
         {
-            name: "Book a Stay",
-            description: "Get a better understanding of your traffic",
+            name: "By Role",
+            description: "Retailers",
             href: "#",
-            icon: HomeIcon, 
+            icon: UserGroupIcon, 
 
         },
         {
@@ -53,9 +53,8 @@ function Header2() {
             <div className="flex lg:flex-1">
                 <Link href="/" 
                  className="-m-1.5 p-1.5 text-white text-2xl">
-
-               faAs
-               
+                faAs
+              
                 
                 </Link>
             
@@ -77,10 +76,17 @@ function Header2() {
             </div>
 
             <Popover.Group className="hidden lg:flex lg:gap-x-12">
-                {/* <Popover className="relative">
+            <a href="#" className="text-sm font-semibold leading-6 text-white text-2xl">
+                   <span className="text-2xl">
+                   Home
+                    </span> 
+                </a>
+                <Popover className="relative">
                     <Popover.Button className="flex items-center
-                    gap-x-1 text-sm font-semibold leading-6 text-white">
-                        Stays
+                    gap-x-1 text-sm font-semibold leading-6 text-white text-2xl">
+                    <span className="text-xl">
+                    Who We Help
+                        </span>    
                         <ChevronDownIcon className="h-5 w-5 flex-none text-white"
                         aria-hidden="true" />
                     </Popover.Button>
@@ -131,29 +137,29 @@ function Header2() {
                             </div>
                         </Popover.Panel>
                     </Transition>
-                </Popover> */}
-                <a href="#" className="font-semibold leading-6 text-white">
-                    Home
+                </Popover>
+                <a href="#" className="text-sm font-semibold leading-6 text-white">
+                    Flights
                 </a>
-                <a href="#" className="font-semibold leading-6 text-white">
-                    Who we help
+                <a href="#" className="text-sm font-semibold leading-6 text-white">
+                    Car Rentals
                 </a>
-                <a href="#" className="font-semibold leading-6 text-white">
-                    Whats included
+                <a href="#" className="text-sm font-semibold leading-6 text-white">
+                    Attractions
                 </a>
-                <a href="#" className="font-semibold leading-6 text-white">
-                    About Us
+                <a href="#" className="text-sm font-semibold leading-6 text-white">
+                    Flight + Hotel
                 </a>
             </Popover.Group>
 
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a href="#" className="font-semibold leading-6 text-white">
+                <a href="#" className="text-sm font-semibold leading-6 text-white">
                     Log in <span aria-hidden="true">&rarr;</span>
                 </a>
             </div>
         </nav>
 
-        {/* <Dialog as="div"
+        <Dialog as="div"
         className="lg:hidden"
         open={mobileMenuOpen}
         onClose={setMobileMenuOpen}>
@@ -164,8 +170,11 @@ function Header2() {
             sm:ring-gray-900/10">
                 <div className="flex items-center justify-between">
                     <a href="#" className="-m-1.5 p-1.5">
-                        <span className="sr-only text-2xl">faAs</span>
-                       
+                        <span className="sr-only">Booking.com</span>
+                        <img className="h-8 w-auto" 
+                src="https://static1.squarespace.com/static/5bde0f00c3c16aa95581e2e2/62b4cb1add9d257dd43bb03d/62b653fedc7c895918d19b24/1656116254983/booking+logo+white.png?format=1500w"
+                        
+                        alt="" />
                    
                         </a>
                         <button type="button" className="-m-2.5 
@@ -227,7 +236,7 @@ function Header2() {
                 </div>
             </Dialog.Panel>
                 
-        </Dialog> */}
+        </Dialog>
     </header>
   )
 }

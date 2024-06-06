@@ -16,7 +16,7 @@ function Landing() {
           Financial Clarity
           <span className="relative inline-flex justify-center whitespace-nowrap font-bold "> Empowering Business <br className="lg:hidden" /> Success</span>
         </h1>
-        <p className="mx-auto mt-10 max-w-md text-base leading-7 text-gray-300">
+        <p className="mx-auto mt-10 max-w-md text-base leading-7 text-white">
         Unlock the power of unparalleled expertise in finance and administration, meticulously customized and meticulously tailored to address the unique 
         needs and challenges encountered at every stage of your companys evolution and growth trajectory, guaranteeing unmatched support,
          seamless scalability, and enduring success.</p>
@@ -25,7 +25,8 @@ function Landing() {
       </div>
     </div>
 
-    <div className="mt-16 mb-16 flex flex-col items-center justify-center divide-y divide-gray-500 border border-gray-600 bg-gray-700 shadow-lg sm:flex-row sm:divide-x sm:divide-y-0 md:mt-32">
+    <div className="mt-16 mb-16 flex flex-col items-center justify-center divide-y divide-gray-500 border border-gray-600 bg-gray-700 shadow-lg 
+    sm:flex-row sm:divide-x sm:divide-y-0 md:mt-32">
       <div className="flex max-w-xs items-center space-x-2 px-4 py-4 text-sm font-medium text-gray-200">
        
         <svg className="h-12 w-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14"><path stroke="white" stroke-linecap="round" stroke-linejoin="round" d="M7.00001 0.769043C6.26017 0.769043 5.52453 0.864057 4.83158 1.06063"></path><path stroke="white" stroke-linecap="round" stroke-linejoin="round" d="M0.75001 13.2307V6.49181C0.75001 4.84532 1.27674 3.58257 2.11801 2.66748"></path><path stroke="white" stroke-linecap="round" stroke-linejoin="round" d="M13.25 13.2308V7.57227"></path><path stroke="white" stroke-linecap="round" stroke-linejoin="round" d="M7 0.769043C9.68738 0.769043 12.3194 2.02268 13.0506 4.8437"></path><path stroke="white" stroke-linecap="round" stroke-linejoin="round" d="M4.34512 13.231C4.34512 13.231 4.01 12.175 3.75866 10.6465"></path><path stroke="white" stroke-linecap="round" stroke-linejoin="round" d="M9.65489 13.231C9.65489 13.231 10.5128 10.5275 10.5128 7.51072C10.5128 6.9208 10.4366 6.41965 10.3027 5.99512"></path><path stroke="white" stroke-linecap="round" stroke-linejoin="round" d="M7 11.4219V12.4219"></path><path stroke="white" stroke-linecap="round" stroke-linejoin="round" d="M3.48719 7.51072C3.48719 4.49393 5.47919 3.79883 7.00001 3.79883C7.45091 3.79883 7.94324 3.85993 8.41278 4.02453"></path><path stroke="white" stroke-linecap="round" d="M5.82499 8.51465C5.82499 7.57669 6.35106 7.06632 7 7.06632C7.64895 7.06632 8.17502 7.57669 8.17502 8.51465"></path></svg>
