@@ -6,6 +6,7 @@ import Grow from "@/components/Grow";
 import Header2 from "@/components/Header2";
 import Hero from "@/components/Hero";
 import Landing from "@/components/Landing";
+import Serve from "@/components/Serve";
 import Tail from "@/components/Tail";
 import Image from "next/image";
 
@@ -15,6 +16,9 @@ export default function Home() {
     <div className="max-w-8xl"> 
     <section className='snap-center'>
       <Header2 />
+    </section>
+    <section className='snap-center'>
+        <Serve />
     </section>
     <section className='snap-center'>
         <Landing />
