@@ -5,6 +5,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
+import { Carousel2 } from "./Carousel2"
 
 
 function Landing() {
@@ -34,15 +35,7 @@ function Landing() {
 
     <div className="mt-16 mb-16 flex flex-col items-center justify-center divide-y divide-gray-500 border border-gray-600 bg-gray-700 shadow-lg 
     sm:flex-row sm:divide-x sm:divide-y-0 md:mt-32">
-    <Carousel>
-  <CarouselContent>
-    <CarouselItem>...</CarouselItem>
-    <CarouselItem>...</CarouselItem>
-    <CarouselItem>...</CarouselItem>
-  </CarouselContent>
-  <CarouselPrevious />
-  <CarouselNext />
-</Carousel>
+    <Carousel2 />
 
     </div>
   </section>
