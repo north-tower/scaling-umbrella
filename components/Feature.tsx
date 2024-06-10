@@ -13,9 +13,9 @@ function Feature() {
       <a href="#" className="border-b-4 border-blue-600 pb-2 text-lg font-bold text-blue-600">Contact Sales</a>
     </div>
     <div className="-order-1 lg:order-1">
-      <div className="mb-8">
+      {/* <div className="mb-8">
         <img className="shadow-blue-500/10 mb-7 h-full w-full rounded-xl object-contain shadow-lg" src="/images/dashboard-1.png" alt="" />
-      </div>
+      </div> */}
       <div className="">
         <img className="shadow-blue-500/10 h-full w-full rounded-xl object-contain shadow-lg" src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
       </div>
