@@ -7,7 +7,7 @@ function Serve() {
   <div className="mx-auto max-w-7xl px-4 md:px-8"> 
     
     <div className="mb-10 md:mb-16">
-      <p className="mx-auto max-w-screen-md text-center text-gray-200 md:text-lg underline underline-offset-1">Who we serve.</p>
+      <p className="mx-auto max-w-screen-md text-center  text-gray-200 md:text-lg underline underline-offset-1">Who we serve.</p>
 
       <h2 className="mb-4 text-center text-xl font-bold text-white md:mb-6 lg:text-xl">Whether you're a small business owner, a freelancer, or part of a 
         larger organization, our solutions are designed to meet your unique financial needs. We proudly serve a diverse range of professionals and businesses, including:</h2>
@@ -22,13 +22,14 @@ function Serve() {
         </a> */}
 
         <div className="flex flex-col gap-2">
-          <span className="text-sm text-gray-400">April 2, 2022</span>
-
-          <h2 className="text-xl font-bold text-gray-800">
-            <a href="#" className="transition duration-100 hover:text-rose-500 active:text-rose-600">The Pines and the Mountains</a>
+        <h2 className="text-xl font-bold text-gray-800">
+            <a href="#" className="transition duration-100 hover:text-rose-500 text-white">Small Business Owners</a>
           </h2>
+          {/* <h2 className="text-xl font-bold text-gray-800">
+            <a href="#" className="transition duration-100 hover:text-rose-500 active:text-rose-600">The Pines and the Mountains</a>
+          </h2> */}
 
-          <p className="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint necessitatibus molestias explicabo.</p>
+          <p className="text-gray-500 text-sm">Streamline your finances and focus on growing your business.</p>
 
           <div>
             <a href="#" className="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700">Read more</a>
@@ -42,13 +43,13 @@ function Serve() {
         </a> */}
 
         <div className="flex flex-col gap-2">
-          <span className="text-sm text-gray-400">April 2, 2022</span>
+         
 
           <h2 className="text-xl font-bold text-gray-800">
-            <a href="#" className="transition duration-100 hover:text-rose-500 active:text-rose-600">The Coding Mania</a>
+            <a href="#" className="transition duration-100 hover:text-rose-500 text-white">Freelancers and Consultants</a>
           </h2>
 
-          <p className="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint necessitatibus molestias explicabo.</p>
+          <p className="text-gray-500 text-sm">Keep your projects profitable with easy expense tracking and invoicing.</p>
 
           <div>
             <a href="#" className="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700">Read more</a>
@@ -62,13 +63,14 @@ function Serve() {
         </a> */}
 
         <div className="flex flex-col gap-2">
-          <span className="text-sm text-gray-400">April 2, 2022</span>
+          {/* <span className="text-sm text-gray-400">April 2, 2022</span> */}
 
           <h2 className="text-xl font-bold text-gray-800">
-            <a href="#" className="transition duration-100 hover:text-rose-500 active:text-rose-600">Architectural Warfare</a>
+            <a href="#" className="transition duration-100 hover:text-rose-500 text-white">Real Estate Professionals</a>
           </h2>
 
-          <p className="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint necessitatibus molestias explicabo.</p>
+          <p className="text-gray-500">Simplify property management and track your investments with ease.
+          </p>
 
           <div>
             <a href="#" className="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700">Read more</a>
