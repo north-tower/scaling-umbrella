@@ -14,9 +14,9 @@ export default function Home() {
   return (
     <main >
     <div className="max-w-8xl"> 
-    <section className='snap-center'>
+    {/* <section className='snap-center'>
       <Header2 />
-    </section>
+    </section> */}
  
     <section className='snap-center'>
         <Landing />
