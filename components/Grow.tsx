@@ -15,6 +15,10 @@ function Grow() {
         We are <br className="sm:hidden" />
         growing rapidly
       </h2>
+      <h2 className="text-3xl font-semibold leading-7 text-white  sm:text-4xl xl:text-5xl">
+        Insights <br className="sm:hidden" />
+        and successes
+      </h2>
       <hr className="mt-4 h-1.5 w-32 border-none bg-white sm:mx-auto sm:mt-8" />
     </div>
 
