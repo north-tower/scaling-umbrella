@@ -4,12 +4,13 @@ function Serve() {
   return (
     <div >
         <section className="bg-black py-6 sm:py-8 lg:py-12">
-  <div className="mx-auto mx-auto max-w-7xl px-4 md:px-8"> 
+  <div className="mx-auto max-w-7xl px-4 md:px-8"> 
     
     <div className="mb-10 md:mb-16">
       <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">Who we serve.</p>
 
-      <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Who we serve</h2>
+      <h2 className="mb-4 text-center text-xl font-bold text-white md:mb-6 lg:text-xl">Whether you're a small business owner, a freelancer, or part of a 
+        larger organization, our solutions are designed to meet your unique financial needs. We proudly serve a diverse range of professionals and businesses, including:</h2>
 
     </div>
 
