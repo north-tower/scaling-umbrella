@@ -5,7 +5,7 @@ function Futuro() {
     <div className='bg-black'>
       
 
-<section className="mx-auto max-w-screen-xl py-12  sm:py-16 lg:py-20">
+<section className="mx-auto max-w-screen-xl py-12  sm:py-16 lg:py-4">
   <div className="mx-auto px-4 sm:px-6 lg:px-8">
     <div className="mx-auto max-w-2xl text-center text-white">
       <p className="text-sm font-medium ">INTRODUCING</p>
