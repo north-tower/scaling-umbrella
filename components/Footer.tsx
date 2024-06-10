@@ -7,8 +7,9 @@ function Footer() {
 <footer className="bg-black">
   <div className="mx-auto grid text-gray-50 lg:grid-cols-12">
     <div className="flex flex-col items-start border-r border-b border-slate-500 py-8 px-5 sm:flex-row sm:px-8 md:pt-14 lg:col-span-7 xl:pl-32 2xl:pl-40">
-      <img className="w-40" src="/images/VlG3Gf3I1xy18sBfhC_5I.png" alt="" />
-      <p className="pt-4 text-sm leading-6 tracking-wide sm:pl-10 sm:pt-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi iure voluptatibus nam fugiat incidunt quo repellendus deserunt temporibus dolores a.</p>
+     
+      <p className="pt-4 text-sm leading-6 tracking-wide sm:pl-10 sm:pt-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Excepturi iure voluptatibus nam fugiat incidunt quo repellendus deserunt temporibus dolores a.</p>
     </div>
     <div className="px-5 py-8 sm:px-8 md:pt-14 lg:col-span-5 xl:pr-32 2xl:pr-40">
       <p className="font-medium text-orange-500">Demo</p>
@@ -24,14 +25,14 @@ function Footer() {
     </div>
     <nav aria-label="Footer Navigation" className="flex flex-wrap border-t border-r border-slate-500 px-5 pb-10 sm:py-8 sm:px-8 lg:col-span-7 lg:border-t-0 xl:flex-nowrap xl:space-x-16 xl:pl-32 2xl:pl-40">
       <ul className="mt-8 mr-4 flex-grow space-y-3 whitespace-nowrap md:mt-0">
-        <li><strong>Resources</strong></li>
-        <li><a href="#"> Why Us? </a></li>
-        <li><a href="#"> Blog </a></li>
+        <li><strong>Whats included in faAs</strong></li>
+        <li><a href="#"> Expense Tracking </a></li>
+        <li><a href="#"> Invoices and Reports</a></li>
         <li><a href="#"> Customer Service </a></li>
-        <li><a href="#"> Guides </a></li>
-        <li><a href="#"> Webinars </a></li>
-        <li><a href="#"> Marketing </a></li>
-        <li><a href="#"> Media </a></li>
+        <li><a href="#"> Financial Reports </a></li>
+        <li><a href="#"> Bank Reconciliation </a></li>
+        <li><a href="#"> Budget Management </a></li>
+        
       </ul>
       <ul className="mt-8 mr-4 flex-grow space-y-3 whitespace-nowrap md:mt-0">
         <li><strong>Comparisons</strong></li>
