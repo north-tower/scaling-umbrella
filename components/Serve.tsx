@@ -2,9 +2,9 @@ import React from 'react'
 
 function Serve() {
   return (
-    <div>
-        <section className="bg-white py-6 sm:py-8 lg:py-12">
-  <div className="mx-auto max-w-screen-xl px-4 md:px-8"> 
+    <div >
+        <section className="bg-black py-6 sm:py-8 lg:py-12">
+  <div className="mx-auto mx-auto max-w-7xl px-4 md:px-8"> 
     
     <div className="mb-10 md:mb-16">
       <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">Who we serve.</p>
