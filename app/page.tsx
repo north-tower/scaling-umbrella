@@ -31,8 +31,12 @@ export default function Home() {
       <Tail />
     </section>
     <section className='snap-center'>
+      <Futuro />
+    </section>
+    <section className='snap-center'>
       <Hero />
     </section>
+  
     
     <section className='snap-center'>
       <Grow />
@@ -40,9 +44,7 @@ export default function Home() {
     <section className='snap-center'>
       <About />
     </section>
-    <section className='snap-center'>
-      <Futuro />
-    </section>
+   
 
     <section className='snap-center'>
       <Footer />
