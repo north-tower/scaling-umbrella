@@ -5,7 +5,7 @@ import { Fragment, useState } from "react";
 import { Bars3Icon , ChatBubbleLeftIcon, HomeIcon, 
     PaperAirplaneIcon,
     ChevronDownIcon, 
-    PhoneIcon, PlayCircleIcon,UserGroupIcon,
+    PhoneIcon, PlayCircleIcon,UserGroupIcon,CpuChipIcon,
      XMarkIcon} from "@heroicons/react/24/solid";
 import { Dialog, Disclosure, Popover, Transition } from
  "@headlessui/react"
@@ -26,21 +26,16 @@ function Header2() {
 
         },
         {
-            name: "Book a flight",
-            description: "Speak directly to your customers",
+            name: "By Industry",
+            description: "Software as a service, Ecommerce",
             href: "#",
-            icon: PaperAirplaneIcon
+            icon: CpuChipIcon,
         },
-        {
-            name: "Contact our support team",
-            description: "Your customers' data will safe and secure",
-            href: "#",
-            icon: ChatBubbleLeftIcon
-        },
+       
     ];
 
     const callsToAction = [
-        { name: "See Demo Booking", href: "#", icon: PlayCircleIcon }, {
+        { name: "See Demo", href: "#", icon: PlayCircleIcon }, {
             name: "Contact Support", href: "#", icon: PhoneIcon
         }
     ]
@@ -76,15 +71,15 @@ function Header2() {
             </div>
 
             <Popover.Group className="hidden lg:flex lg:gap-x-12">
-            <a href="#" className="text-sm font-semibold leading-6 text-white text-2xl">
-                   <span className="text-2xl">
+            <a href="#" className="text-sm font-semibold leading-6 text-white">
+                   <span className="text-lg">
                    Home
                     </span> 
                 </a>
                 <Popover className="relative">
                     <Popover.Button className="flex items-center
-                    gap-x-1 text-sm font-semibold leading-6 text-white text-2xl">
-                    <span className="text-xl">
+                    gap-x-1 text-sm font-semibold leading-6 text-white ">
+                    <span className="text-lg">
                     Who We Help
                         </span>    
                         <ChevronDownIcon className="h-5 w-5 flex-none text-white"
@@ -109,7 +104,7 @@ function Header2() {
                                     text-sm leading-6 
                                     hover:bg-sky-50">
                                        <div className="flex h-11 flex-none items-center justify-center rounded-lg 
-                                       group-hover:bg-sky-200">
+                                       ">
                                         <item.icon className="h-6 w-6 text-blue-600 group-hover:text-blue-600" 
                                         aria-hidden="true" />
                                        
@@ -117,9 +112,9 @@ function Header2() {
                                         <div className="flex-auto">
                                             <a href={item.href} 
                                             className="block 
-                                            font-semibold text-white text-xl"> {item.name} <span className="absolute inset-0" />
+                                            font-semibold text-[#013B94] "> {item.name} <span className="absolute inset-0" />
                                             </a>
-                                            <p className="mt-1 text-white">{item.description}</p>
+                                            <p className="mt-1 text-[#013B94]">{item.description}</p>
                                         </div>
                                         </div>
                                 ))}
