@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Fragment, useState } from "react";
 import { Bars3Icon , ChatBubbleLeftIcon, HomeIcon, 
     PaperAirplaneIcon,
-    ChevronDownIcon, 
+    ChevronDownIcon, Square3Stack3DIcon,
     PhoneIcon, PlayCircleIcon,UserGroupIcon,CpuChipIcon,
      XMarkIcon} from "@heroicons/react/24/solid";
 import { Dialog, Disclosure, Popover, Transition } from
@@ -39,7 +39,7 @@ function Header2() {
             name: "Finance as a Service includes",
             description: "Expense Tracking, Income Tracking, Invoices and Receipts",
             href: "#",
-            icon: UserGroupIcon, 
+            icon: Square3Stack3DIcon,
 
         },
         {
