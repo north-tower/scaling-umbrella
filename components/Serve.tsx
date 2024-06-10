@@ -9,8 +9,9 @@ function Serve() {
     <div className="mb-10 md:mb-16">
       <p className="mx-auto max-w-screen-md text-center  text-gray-200 text-xl underline underline-offset-1">Who we serve.</p>
 
-      <h2 className="mb-4 text-center text-xl font-bold text-white md:mb-6 lg:text-xl">Whether you're a small business owner, a freelancer, or part of a 
-        larger organization, our solutions are designed to meet your unique financial needs. We proudly serve a diverse range of professionals and businesses, including:</h2>
+      <h2 className="mb-4 text-center text-xl font-bold text-white md:mb-6 lg:text-xl">Whether youre a small business owner, a freelancer, or part of a 
+        larger organization, our solutions are designed to meet your unique financial needs. We proudly serve a diverse range of professionals and businesses, 
+        including:</h2>
 
     </div>
 
