@@ -72,14 +72,14 @@ function Header2() {
 
             <Popover.Group className="hidden lg:flex lg:gap-x-12">
             <a href="#" className="text-sm font-semibold leading-6 text-white">
-                   <span className="text-lg">
+                   <span >
                    Home
                     </span> 
                 </a>
                 <Popover className="relative">
                     <Popover.Button className="flex items-center
                     gap-x-1 text-sm font-semibold leading-6 text-white ">
-                    <span className="text-lg">
+                    <span >
                     Who We Help
                         </span>    
                         <ChevronDownIcon className="h-5 w-5 flex-none text-white"
