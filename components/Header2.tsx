@@ -5,7 +5,7 @@ import { Fragment, useState } from "react";
 import { Bars3Icon , ChatBubbleLeftIcon, HomeIcon, 
     PaperAirplaneIcon,
     ChevronDownIcon, Square3Stack3DIcon,
-    PhoneIcon, PlayCircleIcon,UserGroupIcon,CpuChipIcon,PuzzlePieceIcon,CircleStackIcon,SparklesIcon,
+    PhoneIcon, PlayCircleIcon,UserGroupIcon,CpuChipIcon,PuzzlePieceIcon,CircleStackIcon,SparklesIcon,ChartBarIcon, CubeIcon,GlobeAltIcon,
      XMarkIcon} from "@heroicons/react/24/solid";
 import { Dialog, Disclosure, Popover, Transition } from
  "@headlessui/react"
@@ -73,20 +73,19 @@ function Header2() {
             name: "Careers",
             description: "Articles , White Paper",
             href: "#",
-            icon: CircleStackIcon,
-
+            icon: ChartBarIcon,
         },
         {
             name: "Management Team",
             description: "Case Studies , Testimonials ",
             href: "#",
-            icon: SparklesIcon,
+            icon: CubeIcon,
         },
         {
             name: "Press",
             description: "Case Studies , Testimonials ",
             href: "#",
-            icon: SparklesIcon,
+            icon: GlobeAltIcon,
         },
        
     ];
@@ -324,7 +323,7 @@ function Header2() {
                         <Popover.Panel 
                         className="absolute bg-black -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl shadow-lg ring-1 ring-gray-900/5">
                             <div className="p-4">
-                                {products3.map((item) => (
+                                {products4.map((item) => (
                                     <div key={item.name}
                                     className="group relative flex items-center gap-x-6
                                     rounded-lg p-4 
