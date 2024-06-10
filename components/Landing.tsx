@@ -33,8 +33,11 @@ function Landing() {
       </div>
     </div>
 
-    <div className="mt-16 mb-16 flex flex-col items-center justify-center divide-y divide-gray-500 border border-gray-600 bg-gray-700 shadow-lg 
+    <div className="mt-16 mb-16 flex flex-col items-center justify-center divide-y divide-gray-500 border border-gray-600  shadow-lg 
     sm:flex-row sm:divide-x sm:divide-y-0 md:mt-32">
+   <span className="text-white">
+   Our Clients
+    </span>   
     <Carousel2 />
 
     </div>
