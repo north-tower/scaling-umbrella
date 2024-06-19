@@ -20,7 +20,8 @@ function page() {
       <div  className="absolute -left-12 sm:left-auto flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 text-lg text-gray-500 sm:relative md:bg-transparent md:text-5xl">01</div>
       <div  className=""> 
         <h3  className="text-xl font-semibold">Data Collection and Analysis</h3>
-        <p  className="text-gray-400 mt-3">Comprehensive historical financial data, including sales figures, expenses, and cash flow statements, is gathered. In-depth analysis uncovers critical trends and patterns influencing the business's financial performance. 
+        <p  className="text-gray-400 mt-3">Comprehensive historical financial data, including sales figures, expenses, and cash flow statements, is gathered.
+           In-depth analysis uncovers critical trends and patterns influencing the businesss financial performance. 
           This foundational step ensures forecasts are based on accurate and relevant data, providing a solid basis for future projections..</p>
       </div> 
     </div>
@@ -42,7 +43,9 @@ function page() {
       <div  className="absolute -left-12 sm:left-auto flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 text-lg text-gray-500 sm:relative md:bg-transparent md:text-5xl">04</div>
       <div  className="">
         <h3  className="text-xl font-semibold">Monitoring and Adjustments</h3>
-        <p  className="text-gray-400 mt-3">Actual financial performance is continuously monitored against forecasted projections to gauge accuracy and relevance. Forecasts are adapted as needed based on emerging data or shifts in market dynamics to optimize strategic decision-making. Regular adjustments ensure forecasts remain up-to-date and aligned with the business's evolving landscape..</p>
+        <p  className="text-gray-400 mt-3">Actual financial performance is continuously monitored against forecasted projections to gauge 
+          accuracy and relevance. Forecasts are adapted as needed based on emerging data or shifts in market dynamics to optimize strategic decision-making. 
+          Regular adjustments ensure forecasts remain up-to-date and aligned with the businesss evolving landscape..</p>
       </div>
     </div>
   </div>
@@ -125,7 +128,8 @@ Experience tailored reporting and documentation services that cater specifically
   <div className="mx-auto flex w-full flex-col items-center justify-center sm:max-w-screen-sm md:max-w-screen-md lg:flex-row">
     <div className="text-center">
         <h2 className="bg-clip-text text-3xl font-extrabold text-gray-700 sm:text-5xl">Get in touch</h2>
-        <p className="bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text text-4xl font-extrabold text-transparent sm:text-6xl">Let's take your business to the moon</p>
+        <p className="bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text text-4xl font-extrabold text-transparent sm:text-6xl">Lets take your 
+          business to the moon</p>
         
         <Link href={"/contact"}>
         <p className="shadow-pink-600/30 mt-10 inline-flex h-12 items-center rounded-full bg-pink-500 px-6 py-3 text-xl
