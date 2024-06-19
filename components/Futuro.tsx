@@ -22,7 +22,7 @@ function Futuro() {
   <p className="mt-6 text-base text-gray-500">
     <span className="block mb-2"><strong>
 
-Optimize your business's financial management with our outsourced bookkeeping services. We handle all aspects of your financial transactions, from recording and categorizing expenses to generating comprehensive financial reports. Our expert team ensures accuracy, compliance, and efficiency, allowing you to focus on growing your business while we manage your books with precision and care.
+Optimize your businesss financial management with our outsourced bookkeeping services. We handle all aspects of your financial transactions, from recording and categorizing expenses to generating comprehensive financial reports. Our expert team ensures accuracy, compliance, and efficiency, allowing you to focus on growing your business while we manage your books with precision and care.
 .</strong></span>
     {/* <span className="block mb-2"><strong>Income Tracking:</strong> Accurately record and categorize business income for precise financial management.</span>
     <span className="block mb-2"><strong>Invoices and Receipts:</strong> Seamlessly create, manage, and upload or scan invoices and receipts.</span>
@@ -47,7 +47,7 @@ Optimize your business's financial management with our outsourced bookkeeping se
 
 
 
-Harness the power of our specialized financial forecasting services to gain deep insights into your business's financial future. Leveraging comprehensive analysis of historical data and current market trends, we provide detailed projections and strategic recommendations tailored to your unique business needs. Our expert forecasting helps you navigate uncertainties, optimize resource allocation, and seize opportunities for sustainable growth and profitability.
+Harness the power of our specialized financial forecasting services to gain deep insights into your businesss financial future. Leveraging comprehensive analysis of historical data and current market trends, we provide detailed projections and strategic recommendations tailored to your unique business needs. Our expert forecasting helps you navigate uncertainties, optimize resource allocation, and seize opportunities for sustainable growth and profitability.
 </strong></span>
     {/* <span className="block mb-2"><strong>Tax Calculation and Compliance:</strong> Accurately calculate taxes and generate fully compliant tax reports.</span>
     <span className="block mb-2"><strong>Notifications and Reminders:</strong> Stay informed with timely notifications and reminders for important deadlines and tasks.</span>
