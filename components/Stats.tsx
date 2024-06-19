@@ -13,7 +13,7 @@ function Stats() {
 
       <div className="my-10 text-center sm:mt-20 lg:text-left">
         <p className="text-lg font-medium text-blue-600"></p>
-        <h2 className="text-3xl font-bold text-blue-900 sm:text-4xl">This Year's Growth</h2>
+        <h2 className="text-3xl font-bold text-blue-900 sm:text-4xl">This Years Growth</h2>
         <div className="mt-8">
           <button className="rounded-lg border-2 border-blue-700 bg-blue-700 px-6 py-2 font-medium text-white transition hover:translate-y-1">Learn More</button>
         </div>
