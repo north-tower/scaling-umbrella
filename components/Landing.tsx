@@ -38,7 +38,9 @@ function Landing() {
             <Link href={"/contact"} prefetch={false}>
           <Button variant="secondary" className="mr-4 mt-4">Contact Us</Button>
           </Link>
+          <Link href={"/services"} prefetch={false}>
           <Button variant="secondary">Learn More</Button>
+          </Link>
 
 
           </div>
