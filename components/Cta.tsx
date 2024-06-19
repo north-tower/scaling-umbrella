@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Cta() {
@@ -15,8 +16,11 @@ function Cta() {
       <p className="mt-4 font-medium md:text-xl">Everyone who signs up before the beta launch, will get 6 months free</p>
 
       <div className="sm mt-8 flex flex-col sm:flex-row sm:space-x-4 sm:px-0 lg:mt-12">
-        <button className="mt-4 rounded-lg border-2 border-blue-700 bg-blue-700 px-6 py-2 font-medium text-white transition hover:translate-y-1">Try for free</button>
-        <button className="mt-4 rounded-lg border-2 border-blue-700 px-6 py-2 font-medium text-blue-700 transition hover:translate-y-1">Choose a Plan</button>
+        <Link href={"/contact"}>
+        <button className="mt-4 rounded-lg border-2 border-blue-700 bg-blue-700 px-6 py-2 font-medium text-white transition hover:translate-y-1">Contact Us</button>
+
+        </Link>
+        {/* <button className="mt-4 rounded-lg border-2 border-blue-700 px-6 py-2 font-medium text-blue-700 transition hover:translate-y-1">Choose a Plan</button> */}
       </div>
     </div>
     <div className="mt-8 w-full flex-col space-y-3 rounded-xl px-4 py-4  md:ml-auto md:max-w-md lg:flex">
@@ -40,8 +44,8 @@ function Cta() {
           </svg>
         </div>
         <div className="">
-          <p className="text-2xl font-bold">550</p>
-          <p className="text-sm">Graduates</p>
+          <p className="text-2xl font-bold">100</p>
+          <p className="text-sm">Companies</p>
         </div>
       </div>
       <div className="flex rounded-xl bg-white py-2 px-2 text-gray-700 shadow-lg shadow-pink-200">

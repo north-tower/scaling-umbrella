@@ -19,8 +19,8 @@ function Header2() {
 
     const products = [
         {
-            name: "By Role",
-            description: "Retailers,Service Providers",
+            name: "Outsourced Bookkeeping Services",
+            description: "Outsourcing bookkeeping services provide businesses with expert financial management without the overhead of an in-house team.By leveraging professional bookkeepers, businesses can ensure accurate transaction recording, expense tracking, and financial reporting.This service allows business owners to focus on growth and operations while maintaining precise and compliant financial records.",
             href: "#",
             icon: UserGroupIcon, 
 
@@ -135,7 +135,7 @@ function Header2() {
                     <Popover.Button className="flex items-center
                     gap-x-1 text-sm font-semibold leading-6 text-white ">
                     <span >
-                    Who We Help
+                    Services
                         </span>    
                         <ChevronDownIcon className="h-5 w-5 flex-none text-white"
                         aria-hidden="true" />
@@ -160,7 +160,7 @@ function Header2() {
                                     hover:bg-sky-50">
                                        <div className="flex h-11 flex-none items-center justify-center rounded-lg 
                                        ">
-                                        <item.icon className="h-6 w-6 text-blue-600 group-hover:text-blue-600" 
+                                        <item.icon className="h-6 w-6 text-white group-hover:text-blue-600" 
                                         aria-hidden="true" />
                                        
                                         </div>
@@ -401,7 +401,7 @@ function Header2() {
                                         <>
                                             <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base 
                                             font-semibold leading-7 text-white hover:bg-blue-800">
-                                               Whats Included
+                                               Services
                                                     <ChevronDownIcon className={cn( open ? "rotate-180" : "", "h-5 w-5 flex-none")} aria-hidden="true" />                                               
                                             </Disclosure.Button>
                                             <Disclosure.Panel className="mt-2 space-y-2">
