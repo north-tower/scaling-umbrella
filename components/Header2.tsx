@@ -189,13 +189,13 @@ function Header2() {
                     </Transition>
                 </Popover>
                
-                  <a href="#" className="text-sm font-semibold leading-6 text-white ">
+                  <a href="/blog" className="text-sm font-semibold leading-6 text-white ">
                     Blog
                 </a>
                   <a href="#" className="text-sm font-semibold leading-6 text-white ">
                     About Us
                 </a>
-               <a href="#" className="text-sm font-semibold leading-6 text-white ">
+               <a href="/contact" className="text-sm font-semibold leading-6 text-white ">
                     Contact Us
                 </a>
                 
