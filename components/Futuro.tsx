@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Futuro() {
@@ -17,28 +18,40 @@ function Futuro() {
       <div className="">
       
       <div className="p-8 bg-white shadow-md rounded-lg">
-  <h3 className="text-4xl font-bold text-gray-800">Core Functionalities</h3>
+  <h3 className="text-4xl font-bold text-gray-800">Outsourced Bookkeeping Services</h3>
   <p className="mt-6 text-base text-gray-500">
-    <span className="block mb-2"><strong>Expense Tracking:</strong> Effortlessly log, categorize, and monitor all business expenditures.</span>
-    <span className="block mb-2"><strong>Income Tracking:</strong> Accurately record and categorize business income for precise financial management.</span>
+    <span className="block mb-2"><strong>
+
+Optimize your business's financial management with our outsourced bookkeeping services. We handle all aspects of your financial transactions, from recording and categorizing expenses to generating comprehensive financial reports. Our expert team ensures accuracy, compliance, and efficiency, allowing you to focus on growing your business while we manage your books with precision and care.
+.</strong></span>
+    {/* <span className="block mb-2"><strong>Income Tracking:</strong> Accurately record and categorize business income for precise financial management.</span>
     <span className="block mb-2"><strong>Invoices and Receipts:</strong> Seamlessly create, manage, and upload or scan invoices and receipts.</span>
-    <span className="block"><strong>Financial Reports:</strong> Generate comprehensive financial reports, including profit and loss, balance sheet, and cash flow statements.</span>
+    <span className="block"><strong>Financial Reports:</strong> Generate comprehensive financial reports, including profit and loss, balance sheet, and cash flow statements.</span> */}
   </p>
+  <Link href={"/services"}>
   <button className="mt-4 rounded-lg bg-blue-700 px-6 py-2 text-white transition transform hover:-translate-y-1">
     Learn More
   </button>
+  
+  </Link>
+  
 </div>
 
 
 
       </div>
       <div className="p-8 bg-white shadow-md rounded-lg">
-  <h3 className="text-4xl font-bold text-gray-800">Advanced Functionalities</h3>
+  <h3 className="text-4xl font-bold text-gray-800">Financial Forecasting</h3>
   <p className="mt-6 text-base text-gray-500">
-    <span className="block mb-2"><strong>Multi-currency Support:</strong> Effortlessly manage transactions in various currencies with seamless conversions.</span>
-    <span className="block mb-2"><strong>Tax Calculation and Compliance:</strong> Accurately calculate taxes and generate fully compliant tax reports.</span>
+    <span className="block mb-2"><strong>
+
+
+
+Harness the power of our specialized financial forecasting services to gain deep insights into your business's financial future. Leveraging comprehensive analysis of historical data and current market trends, we provide detailed projections and strategic recommendations tailored to your unique business needs. Our expert forecasting helps you navigate uncertainties, optimize resource allocation, and seize opportunities for sustainable growth and profitability.
+</strong></span>
+    {/* <span className="block mb-2"><strong>Tax Calculation and Compliance:</strong> Accurately calculate taxes and generate fully compliant tax reports.</span>
     <span className="block mb-2"><strong>Notifications and Reminders:</strong> Stay informed with timely notifications and reminders for important deadlines and tasks.</span>
-    <span className="block"><strong>Audit Trails:</strong> Maintain a comprehensive history of financial records with detailed change tracking.</span>
+    <span className="block"><strong>Audit Trails:</strong> Maintain a comprehensive history of financial records with detailed change tracking.</span> */}
   </p>
   <button className="mt-4 rounded-lg bg-blue-700 px-6 py-2 text-white transition transform hover:-translate-y-1">
     Learn More
