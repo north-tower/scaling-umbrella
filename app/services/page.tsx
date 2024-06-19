@@ -12,7 +12,7 @@ function page() {
     <div  className="bg-black mx-auto py-10 grid max-w-screen-xl grid-cols-1 text-white pl-6 pr-4 sm:px-20 lg:grid-cols-3">
   <div  className="col-span-1 flex flex-col justify-center text-center sm:text-left md:pr-10">
     <h1  className="mb-6 text-4xl">How it works..</h1> 
-    <p  className="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero.</p>
+    <p  className="text-gray-400">Experience expert bookkeeping that grows with your business, offering accuracy, compliance, and peace of mind at every step.</p>
   </div>
   <div  className="col-span-2 mt-10 grid grid-cols-1 gap-6 rounded-2xl bg-gray-600 p-5 sm:p-10 md:grid-cols-2 lg:mt-0">
     <div  className="relative flex gap-5">
@@ -25,22 +25,22 @@ function page() {
     <div  className="relative flex gap-5">
       <div  className="absolute -left-12 sm:left-auto flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 text-lg text-gray-500 sm:relative md:bg-transparent md:text-5xl">02</div>
       <div  className="">
-        <h3  className="text-xl font-semibold">Storytelling</h3>
-        <p  className="text-gray-400 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+        <h3  className="text-xl font-semibold">Ongoing Bookkeeping Tasks</h3>
+        <p  className="text-gray-400 mt-3">Our team takes care of all your daily financial transactions, ensuring every sale, purchase, receipt, and payment is accurately recorded. We regularly reconcile your bank statements with your financial records, providing precise tracking of your business expenses and income.</p>
       </div>
     </div>
     <div  className="relative flex gap-5">
       <div  className="absolute -left-12 sm:left-auto flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 text-lg text-gray-500 sm:relative md:bg-transparent md:text-5xl">03</div>
       <div  className="">
-        <h3  className="text-xl font-semibold">Keeping the reader hooked</h3>
-        <p  className="text-gray-400 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+        <h3  className="text-xl font-semibold">Monthly and Quarterly Reporting</h3>
+        <p  className="text-gray-400 mt-3">Stay informed with our detailed monthly and quarterly financial reports, including profit and loss statements, balance sheets, and cash flow reports. We also handle your tax calculations and prepare all necessary tax-compliant reports, ensuring you’re always ready for tax season.</p>
       </div>
     </div>
     <div  className="relative flex gap-5">
       <div  className="absolute -left-12 sm:left-auto flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 text-lg text-gray-500 sm:relative md:bg-transparent md:text-5xl">04</div>
       <div  className="">
-        <h3  className="text-xl font-semibold">Ending with a hook</h3>
-        <p  className="text-gray-400 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+        <h3  className="text-xl font-semibold">Continuous Communication and Support</h3>
+        <p  className="text-gray-400 mt-3">Enjoy peace of mind with our continuous support and regular updates. We maintain ongoing communication, providing you with the insights you need to make informed financial decisions. At year-end, we prepare comprehensive financial statements, assist with tax filings, and offer audit support.</p>
       </div>
     </div>
   </div>
