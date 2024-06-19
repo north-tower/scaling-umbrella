@@ -45,10 +45,10 @@ export default function Home() {
     <section className='snap-center'>
       <Tail />
     </section>
-
+{/* 
     <section className='snap-center'>
       <Footer />
-    </section>
+    </section> */}
     </div>
     
     </main>
