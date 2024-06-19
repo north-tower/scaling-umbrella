@@ -20,7 +20,9 @@ function page() {
       <div  className="absolute -left-12 sm:left-auto flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 text-lg text-gray-500 sm:relative md:bg-transparent md:text-5xl">01</div>
       <div  className=""> 
         <h3  className="text-xl font-semibold">Initial Consultation and Setup</h3>
-        <p  className="text-gray-400 mt-3">Begin your journey with a comprehensive consultation to understand your unique business needs and financial goals. We'll set up industry-leading bookkeeping software like QuickBooks or Xero and seamlessly migrate your existing financial data into our secure system.</p>
+        <p  className="text-gray-400 mt-3">Begin your journey with a comprehensive consultation to understand your unique business 
+          needs and financial goals. Well set up industry-leading bookkeeping software like QuickBooks or Xero and seamlessly migrate your
+           existing financial data into our secure system.</p>
       </div> 
     </div>
     <div  className="relative flex gap-5">
@@ -92,7 +94,8 @@ Our platform ensures secure access to your QuickBooks and bank information with 
       <p className="mb-3 font-medium uppercase text-white">Part-Time Bookkeeping with a Full-Time Presence</p>
       <p className="text-blue-200">
 
-Benefit from our part-time bookkeeping services that provide a full-time presence in managing your financial needs. Our dedicated team ensures your books are meticulously maintained, offering comprehensive support tailored to your business's requirements.</p>
+Benefit from our part-time bookkeeping services that provide a full-time presence in managing your financial needs. Our dedicated team ensures your 
+books are meticulously maintained, offering comprehensive support tailored to your businesss requirements.</p>
     </div>
     <div className="border-white/40 relative border-4 px-4 pt-14 pb-8">
       <div className="absolute -top-8 left-8 bg-black px-4 text-white">
@@ -116,7 +119,8 @@ Enjoy straightforward pricing with our competitive flat fees for weekly, monthly
       <p className="mb-3 font-medium uppercase text-white">Customized Reporting and Documentation</p>
       <p className="text-blue-200">
 
-Experience tailored reporting and documentation services that cater specifically to your business's financial needs. Our customized approach ensures detailed and insightful reports, providing you with the essential information to make informed decisions and drive your business forward.</p>
+Experience tailored reporting and documentation services that cater specifically to your businesss financial needs. Our customized 
+approach ensures detailed and insightful reports, providing you with the essential information to make informed decisions and drive your business forward.</p>
     </div>
   </div>
 </section>
