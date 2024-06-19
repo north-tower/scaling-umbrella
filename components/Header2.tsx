@@ -26,8 +26,8 @@ function Header2() {
 
         },
         {
-            name: "By Industry",
-            description: "Software as a service, Ecommerce",
+            name: "Financial Forecasting",
+            description: "Financial forecasting involves predicting future financial performance based on historical data, current trends, and market conditions. This process helps businesses plan strategically, allocate resources effectively, and make informed decisions. By utilizing advanced modeling techniques and scenario analysis, financial forecasting provides valuable insights into potential future outcomes, ensuring better preparedness and optimized growth strategies.",
             href: "#",
             icon: CpuChipIcon,
         },
