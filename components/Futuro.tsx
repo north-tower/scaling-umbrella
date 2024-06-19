@@ -53,9 +53,12 @@ Harness the power of our specialized financial forecasting services to gain deep
     <span className="block mb-2"><strong>Notifications and Reminders:</strong> Stay informed with timely notifications and reminders for important deadlines and tasks.</span>
     <span className="block"><strong>Audit Trails:</strong> Maintain a comprehensive history of financial records with detailed change tracking.</span> */}
   </p>
+  <Link href={"/forecast"}>
   <button className="mt-4 rounded-lg bg-blue-700 px-6 py-2 text-white transition transform hover:-translate-y-1">
     Learn More
   </button>
+  
+  </Link>
 </div>
 <div className="p-8 bg-white shadow-md rounded-lg">
   <h3 className="text-4xl font-bold text-gray-800">Integration Needs</h3>

@@ -13,13 +13,13 @@ function page() {
     <div  className="bg-black mx-auto py-10 grid max-w-screen-xl grid-cols-1 text-white pl-6 pr-4 sm:px-20 lg:grid-cols-3">
   <div  className="col-span-1 flex flex-col justify-center text-center sm:text-left md:pr-10">
     <h1  className="mb-6 text-4xl">How it works..</h1> 
-    <p  className="text-gray-400">Experience expert bookkeeping that grows with your business, offering accuracy, compliance, and peace of mind at every step.</p>
+    <p  className="text-gray-400">These steps ensure a structured approach to financial forecasting, providing valuable insights to support strategic decision-making and business planning.</p>
   </div>
   <div  className="col-span-2 mt-10 grid grid-cols-1 gap-6 rounded-2xl bg-gray-600 p-5 sm:p-10 md:grid-cols-2 lg:mt-0">
     <div  className="relative flex gap-5">
       <div  className="absolute -left-12 sm:left-auto flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 text-lg text-gray-500 sm:relative md:bg-transparent md:text-5xl">01</div>
       <div  className=""> 
-        <h3  className="text-xl font-semibold">Initial Consultation and Setup</h3>
+        <h3  className="text-xl font-semibold">Data Collection and Analysis</h3>
         <p  className="text-gray-400 mt-3">Begin your journey with a comprehensive consultation to understand your unique business needs and financial goals. We'll set up industry-leading bookkeeping software like QuickBooks or Xero and seamlessly migrate your existing financial data into our secure system.</p>
       </div> 
     </div>
@@ -47,7 +47,7 @@ function page() {
   </div>
 </div>
 
-<section className="bg-black">
+{/* <section className="bg-black">
   <div className="mx-auto grid max-w-lg gap-x-8 gap-y-12 px-4 py-32 md:max-w-screen-xl md:grid-cols-2 md:px-8 lg:grid-cols-3">
     <div>
       <h2 className="text-3xl font-medium text-white">
@@ -119,7 +119,7 @@ Enjoy straightforward pricing with our competitive flat fees for weekly, monthly
 Experience tailored reporting and documentation services that cater specifically to your business's financial needs. Our customized approach ensures detailed and insightful reports, providing you with the essential information to make informed decisions and drive your business forward.</p>
     </div>
   </div>
-</section>
+</section> */}
 <section className="mx-auto py-4">
   <div className="mx-auto flex w-full flex-col items-center justify-center sm:max-w-screen-sm md:max-w-screen-md lg:flex-row">
     <div className="text-center">
