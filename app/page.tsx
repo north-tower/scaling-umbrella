@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Cta from "@/components/Cta";
 import Details from "@/components/Details";
 import Footer from "@/components/Footer";
 import Futuro from "@/components/Futuro";
@@ -46,6 +47,9 @@ export default function Home() {
     </section> */}
     <section className='snap-center'>
       <Tail />
+    </section>
+    <section className='snap-center'>
+      <Cta />
     </section>
 {/* 
     <section className='snap-center'>
