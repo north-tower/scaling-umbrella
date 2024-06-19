@@ -192,7 +192,7 @@ function Header2() {
                   <a href="/blog" className="text-sm font-semibold leading-6 text-white ">
                     Blog
                 </a>
-                  <a href="#" className="text-sm font-semibold leading-6 text-white ">
+                  <a href="/about" className="text-sm font-semibold leading-6 text-white ">
                     About Us
                 </a>
                <a href="/contact" className="text-sm font-semibold leading-6 text-white ">
@@ -262,7 +262,7 @@ function Header2() {
                             <a href="/blog"
                             className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-blue-800">
                                 Blog</a> 
-                                <a href="/"
+                                <a href="/about"
                             className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-blue-800">
                                 About Us</a> 
                                 <a href="/contact"
