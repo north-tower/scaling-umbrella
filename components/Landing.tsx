@@ -31,7 +31,7 @@ function Landing() {
               Unlock the power of unparalleled expertise in finance and
               administration, meticulously customized and meticulously tailored
               to address the unique needs and challenges encountered at every
-              stage of your company's evolution and growth trajectory,
+              stage of your companys evolution and growth trajectory,
               guaranteeing unmatched support, seamless scalability, and enduring
               success.
             </p>
