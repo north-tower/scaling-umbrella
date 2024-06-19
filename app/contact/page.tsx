@@ -10,7 +10,7 @@ function page() {
                     <h1 className="mb-4 text-3xl font-black sm:text-5xl xl:text-6xl">Contact us</h1>
                     <div className="text-lg sm:text-xl xl:text-xl">
                     <div className="text-white">
-                        <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p className="mb-4">Get A free quote.</p>
                     </div>
                     </div>
                 </div>

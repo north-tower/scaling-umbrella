@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/carousel";
 import { Carousel2 } from "./Carousel2";
 import { Button } from "@/components/ui/button"
+import Link from "next/link";
 
 
 function Landing() {
@@ -34,7 +35,9 @@ function Landing() {
               guaranteeing unmatched support, seamless scalability, and enduring
               success.
             </p>
+            <Link href={"/contact"} prefetch={false}>
           <Button variant="secondary" className="mr-4 mt-4">Contact Us</Button>
+          </Link>
           <Button variant="secondary">Learn More</Button>
 
 
