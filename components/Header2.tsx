@@ -21,14 +21,14 @@ function Header2() {
         {
             name: "Outsourced Bookkeeping Services",
             description: "Outsourcing bookkeeping services provide businesses with expert financial management without the overhead of an in-house team.By leveraging professional bookkeepers, businesses can ensure accurate transaction recording, expense tracking, and financial reporting.This service allows business owners to focus on growth and operations while maintaining precise and compliant financial records.",
-            href: "#",
+            href: "services",
             icon: UserGroupIcon, 
 
         },
         {
             name: "Financial Forecasting",
             description: "Financial forecasting involves predicting future financial performance based on historical data, current trends, and market conditions. This process helps businesses plan strategically, allocate resources effectively, and make informed decisions. By utilizing advanced modeling techniques and scenario analysis, financial forecasting provides valuable insights into potential future outcomes, ensuring better preparedness and optimized growth strategies.",
-            href: "#",
+            href: "forecast",
             icon: CpuChipIcon,
         },
        
@@ -38,7 +38,7 @@ function Header2() {
         {
             name: "Finance as a Service includes",
             description: "Expense Tracking, Income Tracking, Invoices and Receipts",
-            href: "#",
+            href: "forecast",
             icon: Square3Stack3DIcon,
 
         },
@@ -188,179 +188,19 @@ function Header2() {
                         </Popover.Panel>
                     </Transition>
                 </Popover>
-                <Popover className="relative">
-                    <Popover.Button className="flex items-center
-                    gap-x-1 text-sm font-semibold leading-6 text-white ">
-                    <span >
-                    Whats Included
-                        </span>    
-                        <ChevronDownIcon className="h-5 w-5 flex-none text-white"
-                        aria-hidden="true" />
-                    </Popover.Button>
-
-                    <Transition as={Fragment}
-                    enter="transition ease-out duration-200"
-                    enterFrom="opacity-0 translate-y-1"
-                    enterTo="opacity-100 translate-y-0"
-                    leave="transition ease-in duration-150"
-                    leaveFrom="opacity-100 translate-y-0"
-                    leaveTo="opacity-0 translate-y-1" >
-
-                        <Popover.Panel 
-                        className="absolute bg-black -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl shadow-lg ring-1 ring-gray-900/5">
-                            <div className="p-4">
-                                {products2.map((item) => (
-                                    <div key={item.name}
-                                    className="group relative flex items-center gap-x-6
-                                    rounded-lg p-4 
-                                    text-sm leading-6 
-                                    hover:bg-sky-50">
-                                       <div className="flex h-11 flex-none items-center justify-center rounded-lg 
-                                       ">
-                                        <item.icon className="h-6 w-6 text-blue-600 group-hover:text-blue-600" 
-                                        aria-hidden="true" />
-                                       
-                                        </div>
-                                        <div className="flex-auto">
-                                            <a href={item.href} 
-                                            className="block 
-                                            font-semibold text-[#013B94] "> {item.name} <span className="absolute inset-0" />
-                                            </a>
-                                            <p className="mt-1 text-[#013B94]">{item.description}</p>
-                                        </div>
-                                        </div>
-                                ))}
-                            </div>
-
-                            {/* <div className="grid grid-cols-2 divide-x divide-gray-900/5 ">
-                                {callsToAction.map((item) => (
-                                    <a key={item.name}
-                                    href={item.href}
-                                    className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-[#013B94] hover:bg-gray-100">
-                                        <item.icon className="h-5 w-5 flex-none text-[#013B94]" aria-hidden="true" />
-                                        {item.name}
-                                    </a>
-                                ))}
-                            </div> */}
-                        </Popover.Panel>
-                    </Transition>
-                </Popover>
-                <Popover className="relative">
-                    <Popover.Button className="flex items-center
-                    gap-x-1 text-sm font-semibold leading-6 text-white ">
-                    <span >
-                    Insights and Successes
-                        </span>    
-                        <ChevronDownIcon className="h-5 w-5 flex-none text-white"
-                        aria-hidden="true" />
-                    </Popover.Button>
-
-                    <Transition as={Fragment}
-                    enter="transition ease-out duration-200"
-                    enterFrom="opacity-0 translate-y-1"
-                    enterTo="opacity-100 translate-y-0"
-                    leave="transition ease-in duration-150"
-                    leaveFrom="opacity-100 translate-y-0"
-                    leaveTo="opacity-0 translate-y-1" >
-
-                        <Popover.Panel 
-                        className="absolute bg-black -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl shadow-lg ring-1 ring-gray-900/5">
-                            <div className="p-4">
-                                {products3.map((item) => (
-                                    <div key={item.name}
-                                    className="group relative flex items-center gap-x-6
-                                    rounded-lg p-4 
-                                    text-sm leading-6 
-                                    hover:bg-sky-50">
-                                       <div className="flex h-11 flex-none items-center justify-center rounded-lg 
-                                       ">
-                                        <item.icon className="h-6 w-6 text-blue-600 group-hover:text-blue-600" 
-                                        aria-hidden="true" />
-                                       
-                                        </div>
-                                        <div className="flex-auto">
-                                            <a href={item.href} 
-                                            className="block 
-                                            font-semibold text-[#013B94] "> {item.name} <span className="absolute inset-0" />
-                                            </a>
-                                            <p className="mt-1 text-[#013B94]">{item.description}</p>
-                                        </div>
-                                        </div>
-                                ))}
-                            </div>
-
-                            {/* <div className="grid grid-cols-2 divide-x divide-gray-900/5 ">
-                                {callsToAction.map((item) => (
-                                    <a key={item.name}
-                                    href={item.href}
-                                    className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-[#013B94] hover:bg-gray-100">
-                                        <item.icon className="h-5 w-5 flex-none text-[#013B94]" aria-hidden="true" />
-                                        {item.name}
-                                    </a>
-                                ))}
-                            </div> */}
-                        </Popover.Panel>
-                    </Transition>
-                </Popover>
-                <Popover className="relative">
-                    <Popover.Button className="flex items-center
-                    gap-x-1 text-sm font-semibold leading-6 text-white ">
-                    <span >
-                    About
-                        </span>    
-                        <ChevronDownIcon className="h-5 w-5 flex-none text-white"
-                        aria-hidden="true" />
-                    </Popover.Button>
-
-                    <Transition as={Fragment}
-                    enter="transition ease-out duration-200"
-                    enterFrom="opacity-0 translate-y-1"
-                    enterTo="opacity-100 translate-y-0"
-                    leave="transition ease-in duration-150"
-                    leaveFrom="opacity-100 translate-y-0"
-                    leaveTo="opacity-0 translate-y-1" >
-
-                        <Popover.Panel 
-                        className="absolute bg-black -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl shadow-lg ring-1 ring-gray-900/5">
-                            <div className="p-4">
-                                {products4.map((item) => (
-                                    <div key={item.name}
-                                    className="group relative flex items-center gap-x-6
-                                    rounded-lg p-4 
-                                    text-sm leading-6 
-                                    hover:bg-sky-50">
-                                       <div className="flex h-11 flex-none items-center justify-center rounded-lg 
-                                       ">
-                                        <item.icon className="h-6 w-6 text-blue-600 group-hover:text-blue-600" 
-                                        aria-hidden="true" />
-                                       
-                                        </div>
-                                        <div className="flex-auto">
-                                            <a href={item.href} 
-                                            className="block 
-                                            font-semibold text-[#013B94] "> {item.name} <span className="absolute inset-0" />
-                                            </a>
-                                            {/* <p className="mt-1 text-[#013B94]">{item.description}</p> */}
-                                        </div>
-                                        </div>
-                                ))}
-                            </div>
-
-                            {/* <div className="grid grid-cols-2 divide-x divide-gray-900/5 ">
-                                {callsToAction.map((item) => (
-                                    <a key={item.name}
-                                    href={item.href}
-                                    className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-[#013B94] hover:bg-gray-100">
-                                        <item.icon className="h-5 w-5 flex-none text-[#013B94]" aria-hidden="true" />
-                                        {item.name}
-                                    </a>
-                                ))}
-                            </div> */}
-                        </Popover.Panel>
-                    </Transition>
-                </Popover>
+               
+                  <a href="#" className="text-sm font-semibold leading-6 text-white ">
+                    Blog
+                </a>
+                  <a href="#" className="text-sm font-semibold leading-6 text-white ">
+                    About Us
+                </a>
+               <a href="#" className="text-sm font-semibold leading-6 text-white ">
+                    Contact Us
+                </a>
                 
             </Popover.Group>
+         
 
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                 <a href="#" className="text-sm font-semibold leading-6 ">
