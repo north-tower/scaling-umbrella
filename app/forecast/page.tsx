@@ -51,79 +51,7 @@ function page() {
   </div>
 </div>
 
-{/* <section className="bg-black">
-  <div className="mx-auto grid max-w-lg gap-x-8 gap-y-12 px-4 py-32 md:max-w-screen-xl md:grid-cols-2 md:px-8 lg:grid-cols-3">
-    <div>
-      <h2 className="text-3xl font-medium text-white">
-        Unmatched <br />
-        Services.<br />
-        Unmatched <br />
-        Excellence.
-      </h2>
-    </div>
 
-    <div className="border-white/40 relative border-4 px-4 pt-14 pb-8">
-      <div className="absolute -top-8 left-8 bg-black px-4 text-white">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="h-16 w-16">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-</svg>
-
-      </div>
-      <p className="mb-3 font-medium uppercase text-white">Customized Bookkeeping System for Every Client</p>
-      <p className="text-blue-200">
-
-Our tailored bookkeeping system meets your unique business needs, ensuring precise transaction recording and insightful reporting. Stay compliant and focused on growth with expert financial management designed just for you.</p>
-    </div>
-    <div className="border-white/40 relative border-4 px-4 pt-14 pb-8">
-      <div className="absolute -top-8 left-8 bg-black px-4 text-white">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="h-16 w-16">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
-</svg>
-
-      </div>
-      <p className="mb-3 font-medium uppercase text-white">Security: Accessing QuickBooks and Bank Info</p>
-      <p className="text-blue-200">
-
-Our platform ensures secure access to your QuickBooks and bank information with robust encryption and strict authentication protocols. Safeguard your financial data with confidence and maintain peace of mind.</p>
-    </div>
-    <div className="border-white/40 relative border-4 px-4 pt-14 pb-8">
-      <div className="absolute -top-8 left-8 bg-black px-4 text-white">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="h-16 w-16">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M6.429 9.75 2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0 4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0-5.571 3-5.571-3" />
-</svg>
-
-      </div>
-      <p className="mb-3 font-medium uppercase text-white">Part-Time Bookkeeping with a Full-Time Presence</p>
-      <p className="text-blue-200">
-
-Benefit from our part-time bookkeeping services that provide a full-time presence in managing your financial needs. Our dedicated team ensures your books are meticulously maintained, offering comprehensive support tailored to your business's requirements.</p>
-    </div>
-    <div className="border-white/40 relative border-4 px-4 pt-14 pb-8">
-      <div className="absolute -top-8 left-8 bg-black px-4 text-white">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="h-16 w-16">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
-</svg>
-
-      </div>
-      <p className="mb-3 font-medium uppercase text-white">Weekly, Monthly, or Quarterly Flat Fees</p>
-      <p className="text-blue-200"> 
-
-Enjoy straightforward pricing with our competitive flat fees for weekly, monthly, or quarterly bookkeeping services. Simplify your budgeting and financial planning while receiving consistent, reliable support for your business needs.</p>
-    </div>
-    <div className="border-white/40 relative border-4 px-4 pt-14 pb-8">
-      <div className="absolute -top-8 left-8 bg-black px-4 text-white">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="h-16 w-16">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0 0 12 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52 2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 0 1-2.031.352 5.988 5.988 0 0 1-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971Zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0 2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 0 1-2.031.352 5.989 5.989 0 0 1-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971Z" />
-</svg>
-
-      </div>
-      <p className="mb-3 font-medium uppercase text-white">Customized Reporting and Documentation</p>
-      <p className="text-blue-200">
-
-Experience tailored reporting and documentation services that cater specifically to your business's financial needs. Our customized approach ensures detailed and insightful reports, providing you with the essential information to make informed decisions and drive your business forward.</p>
-    </div>
-  </div>
-</section> */}
 <section className="mx-auto py-4">
   <div className="mx-auto flex w-full flex-col items-center justify-center sm:max-w-screen-sm md:max-w-screen-md lg:flex-row">
     <div className="text-center">
