@@ -20,28 +20,29 @@ function page() {
       <div  className="absolute -left-12 sm:left-auto flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 text-lg text-gray-500 sm:relative md:bg-transparent md:text-5xl">01</div>
       <div  className=""> 
         <h3  className="text-xl font-semibold">Data Collection and Analysis</h3>
-        <p  className="text-gray-400 mt-3">Begin your journey with a comprehensive consultation to understand your unique business needs and financial goals. We'll set up industry-leading bookkeeping software like QuickBooks or Xero and seamlessly migrate your existing financial data into our secure system.</p>
+        <p  className="text-gray-400 mt-3">Comprehensive historical financial data, including sales figures, expenses, and cash flow statements, is gathered. In-depth analysis uncovers critical trends and patterns influencing the business's financial performance. 
+          This foundational step ensures forecasts are based on accurate and relevant data, providing a solid basis for future projections..</p>
       </div> 
     </div>
     <div  className="relative flex gap-5">
       <div  className="absolute -left-12 sm:left-auto flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 text-lg text-gray-500 sm:relative md:bg-transparent md:text-5xl">02</div>
       <div  className="">
-        <h3  className="text-xl font-semibold">Ongoing Bookkeeping Tasks</h3>
-        <p  className="text-gray-400 mt-3">Our team takes care of all your daily financial transactions, ensuring every sale, purchase, receipt, and payment is accurately recorded. We regularly reconcile your bank statements with your financial records, providing precise tracking of your business expenses and income.</p>
+        <h3  className="text-xl font-semibold">Developing Forecasting Models</h3>
+        <p  className="text-gray-400 mt-3">Suitable forecasting methods, such as time series analysis, regression analysis, or advanced financial modeling techniques, are selected. Forecasting models are constructed and refined based on robust historical data and pertinent external factors. The choice and customization of models are crucial, as they directly impact the accuracy and reliability of the forecasts.</p>
       </div>
     </div>
     <div  className="relative flex gap-5">
       <div  className="absolute -left-12 sm:left-auto flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 text-lg text-gray-500 sm:relative md:bg-transparent md:text-5xl">03</div>
       <div  className="">
-        <h3  className="text-xl font-semibold">Monthly and Quarterly Reporting</h3>
-        <p  className="text-gray-400 mt-3">Stay informed with our detailed monthly and quarterly financial reports, including profit and loss statements, balance sheets, and cash flow reports. We also handle your tax calculations and prepare all necessary tax-compliant reports, ensuring you’re always ready for tax season.</p>
+        <h3  className="text-xl font-semibold">Forecast Generation</h3>
+        <p  className="text-gray-400 mt-3">Precise short-term and long-term financial forecasts are generated using validated models and predictive analytics. Scenario analysis is implemented to evaluate potential outcomes across diverse economic scenarios or strategic initiatives. This step provides a range of potential futures, helping prepare for various possibilities and make informed decisions.</p>
       </div>
     </div>
     <div  className="relative flex gap-5">
       <div  className="absolute -left-12 sm:left-auto flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 text-lg text-gray-500 sm:relative md:bg-transparent md:text-5xl">04</div>
       <div  className="">
-        <h3  className="text-xl font-semibold">Continuous Communication and Support</h3>
-        <p  className="text-gray-400 mt-3">Enjoy peace of mind with our continuous support and regular updates. We maintain ongoing communication, providing you with the insights you need to make informed financial decisions. At year-end, we prepare comprehensive financial statements, assist with tax filings, and offer audit support.</p>
+        <h3  className="text-xl font-semibold">Monitoring and Adjustments</h3>
+        <p  className="text-gray-400 mt-3">Actual financial performance is continuously monitored against forecasted projections to gauge accuracy and relevance. Forecasts are adapted as needed based on emerging data or shifts in market dynamics to optimize strategic decision-making. Regular adjustments ensure forecasts remain up-to-date and aligned with the business's evolving landscape..</p>
       </div>
     </div>
   </div>
