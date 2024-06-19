@@ -7,8 +7,8 @@ function Hero() {
 <div className="relative">
   <div className="absolute inset-0 bottom-32 -z-10 bg-gradient-to-br from-black to-black"></div>
   <div className="mx-auto flex max-w-screen-md flex-col">
-    <h1 className="mt-10 text-center text-3xl font-bold text-white sm:mt-20 sm:text-5xl">Your goto faAs</h1>
-    <p className="mt-6 text-center text-white text-xl">Welcome to faAs, the ultimate solution for seamless and efficient bookkeeping tailored 
+    <h1 className="mt-10 text-center text-3xl font-bold text-white sm:mt-20 sm:text-5xl">Your goto Faas</h1>
+    <p className="mt-6 text-center text-white text-xl">Welcome to Faas, the ultimate solution for seamless and efficient bookkeeping tailored 
     to meet the needs of modern businesses. Whether youre a small business owner, a freelancer, or an accountant, our app is designed to 
     simplify your financial management processes, giving you more time to focus on what you do best—growing your business.</p>
     <div className="abg-white relative mx-auto mt-8 w-full max-w-sm space-y-2 overflow-hidden ring-rose-400 focus-within:ring-2 sm:space-y-0 sm:rounded-full">

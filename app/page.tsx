@@ -29,11 +29,12 @@ export default function Home() {
     <section className='snap-center'>
       <Futuro />
     </section>
-    <section className='snap-center'>
-        <Serve />
-    </section>
+  
     <section className='snap-center'>
       <Hero />
+    </section>
+    <section className='snap-center'>
+        <Serve />
     </section>
   
     
