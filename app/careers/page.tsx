@@ -26,8 +26,14 @@ function page() {
         <section className="mx-auto my-10 flex max-w-xl flex-col rounded-3xl border-blue-300 px-4 py-10 text-gray-700 sm:border-8
          sm:px-10 lg:max-w-screen-lg lg:flex-row bg-black">
   <div className="mr-2">
-    <h2 className="mb-4 text-4xl font-medium text-white">A Better <span className="text-blue-600">Learning Experience</span></h2>
-    <p className="mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nemo obcaecati commodi itaque aliquam.</p>
+    <h2 className="mb-4 text-4xl font-medium text-white">We work hard<span className="text-blue-600"> and play hard</span></h2>
+    <p className="mb-6 text-white">
+
+At [Your Company Name], we believe in the perfect balance of hard work and fun. Our vibrant company culture fosters an environment where dedication and enjoyment go hand in hand. We understand that a happy, engaged team is a productive one, so we prioritize activities and benefits that support both professional excellence and personal well-being.
+
+From team-building events and company outings to on-site recreational facilities and wellness programs, we ensure there's always an opportunity to unwind and recharge. Whether it's celebrating milestones, participating in friendly competitions, or enjoying our casual Fridays, we make sure that your time at work is as enjoyable as it is rewarding.
+
+Join us and experience a workplace where your professional ambitions and personal happiness are both valued and nurtured. At [Your Company Name], we play hard and work hard, ensuring that every day is both fulfilling and fun..</p>
     <div className="mb-4 space-y-4">
       <div className="flex space-x-2">
         <span className="text-blue-400">
@@ -64,9 +70,7 @@ function page() {
     </div>
     <div className="text-gray-400">and more...</div>
   </div>
-  <div className="h-96">
-    <img className="h-full w-full object-contain" src="/images/wv9smzv0S_DHtyCfKKeHA.png" alt="" />
-  </div>
+  
 </section>
 
 
