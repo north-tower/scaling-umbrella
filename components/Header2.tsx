@@ -254,9 +254,9 @@ function Header2() {
                   <a href="/blog" className="text-sm font-semibold leading-6 text-white ">
                     Blog
                 </a>
-                  <a href="/about" className="text-sm font-semibold leading-6 text-white ">
+                  {/* <a href="/about" className="text-sm font-semibold leading-6 text-white ">
                     About Us
-                </a>
+                </a> */}
                <a href="/contact" className="text-sm font-semibold leading-6 text-white ">
                     Contact Us
                 </a>
