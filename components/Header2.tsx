@@ -5,7 +5,7 @@ import { Fragment, useState } from "react";
 import { Bars3Icon , ChatBubbleLeftIcon, HomeIcon, 
     PaperAirplaneIcon,
     ChevronDownIcon, Square3Stack3DIcon,
-    PhoneIcon, PlayCircleIcon,UserGroupIcon,CpuChipIcon,PuzzlePieceIcon,CircleStackIcon,SparklesIcon,ChartBarIcon, CubeIcon,GlobeAltIcon,SquaresPlusIcon,
+    PhoneIcon, PlayCircleIcon,UserGroupIcon,CpuChipIcon,PuzzlePieceIcon,CircleStackIcon,SparklesIcon,ChartBarIcon, CubeIcon,GlobeAltIcon,SquaresPlusIcon,ShieldExclamationIcon,
      XMarkIcon} from "@heroicons/react/24/solid";
 import { Dialog, Disclosure, Popover, Transition } from
  "@headlessui/react"
@@ -44,9 +44,9 @@ function Header2() {
         },
         {
             name: "Terms of service",
-            description: "Accounting Software, Payment Gateways, CRM , Bank Integration ",
+            description: "Our terms of service govern the use of our bookkeeping services, ensuring compliance with data accuracy, confidentiality, and legal standards for a secure and reliable financial management partnership. ",
             href: "terms",
-            icon: PuzzlePieceIcon,
+            icon: ShieldExclamationIcon,
         },
         {
             name: "Careers",
