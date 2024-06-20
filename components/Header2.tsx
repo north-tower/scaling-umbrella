@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Fragment, useState } from "react";
 import { Bars3Icon , ChatBubbleLeftIcon, HomeIcon, 
     PaperAirplaneIcon,
-    ChevronDownIcon, Square3Stack3DIcon,
+    ChevronDownIcon, Square3Stack3DIcon,BellIcon,
     PhoneIcon, PlayCircleIcon,UserGroupIcon,CpuChipIcon,PuzzlePieceIcon,CircleStackIcon,SparklesIcon,ChartBarIcon, CubeIcon,GlobeAltIcon,SquaresPlusIcon,ShieldExclamationIcon,
      XMarkIcon} from "@heroicons/react/24/solid";
 import { Dialog, Disclosure, Popover, Transition } from
@@ -50,9 +50,9 @@ function Header2() {
         },
         {
             name: "Careers",
-            description: "Accounting Software, Payment Gateways, CRM , Bank Integration ",
+            description: "Join our team and build a rewarding career with at our company ",
             href: "careers",
-            icon: PuzzlePieceIcon,
+            icon: BellIcon,
         },
     ];
 
