@@ -38,14 +38,14 @@ function Header2() {
         {
             name: "Values and Mission",
             description: "Expense Tracking, Income Tracking, Invoices and Receipts",
-            href: "forecast",
+            href: "values",
             icon: Square3Stack3DIcon,
 
         },
         {
             name: "Terms of service",
             description: "Accounting Software, Payment Gateways, CRM , Bank Integration ",
-            href: "#",
+            href: "terms",
             icon: PuzzlePieceIcon,
         },
         {
