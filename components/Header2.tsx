@@ -193,6 +193,11 @@ function Header2() {
                         </Popover.Panel>
                     </Transition>
                 </Popover>
+              
+               
+                  <a href="/blog" className="text-sm font-semibold leading-6 text-white ">
+                    Blog
+                </a>
                 <Popover className="relative">
                     <Popover.Button className="flex items-center
                     gap-x-1 text-sm font-semibold leading-6 text-white ">
@@ -250,10 +255,6 @@ function Header2() {
                         </Popover.Panel>
                     </Transition>
                 </Popover>
-               
-                  <a href="/blog" className="text-sm font-semibold leading-6 text-white ">
-                    Blog
-                </a>
                   {/* <a href="/about" className="text-sm font-semibold leading-6 text-white ">
                     About Us
                 </a> */}
@@ -324,9 +325,29 @@ function Header2() {
                             <a href="/blog"
                             className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-blue-800">
                                 Blog</a> 
-                                <a href="/about"
-                            className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-blue-800">
-                                About Us</a> 
+                                <Disclosure className="-mx-3" as="div" > 
+                                    {( {open} )  => (
+                                        <>
+                                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base 
+                                            font-semibold leading-7 text-white hover:bg-blue-800">
+                                               About Us
+                                                    <ChevronDownIcon className={cn( open ? "rotate-180" : "", "h-5 w-5 flex-none")} aria-hidden="true" />                                               
+                                            </Disclosure.Button>
+                                            <Disclosure.Panel className="mt-2 space-y-2">
+                                                {[...products2].map((item) => (
+                                                    <Disclosure.Button 
+                                                    key={item.name}
+                                                    as="a"
+                                                    href={item.href}
+                                                    className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white hover:bg-blue-800"
+                                                    >
+                                                        {item.name}
+                                                    </Disclosure.Button>
+                                                ))}
+                                            </Disclosure.Panel>
+                                        </>
+                                    )}
+                            </Disclosure>
                                 <a href="/contact"
                             className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-blue-800">
                                 Contact Us</a> 
