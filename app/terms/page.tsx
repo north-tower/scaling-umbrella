@@ -77,46 +77,45 @@ As a user of our companys bookkeeping services, it is essential to uphold respon
   </div>
 </div>
 <section className="relative mx-auto max-w-screen-lg bg-white p-4 text-gray-800">
-  <h1 className="mb-20 text-center text-4xl font-bold">Productivity at maximum</h1>
+  <h1 className="mb-20 text-center text-4xl font-bold">Experience the Future of Bookkeeping</h1>
   <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center lg:gap-12">
     <div className="md:px-20 lg:col-start-2 lg:pr-0">
-      <ul className="mt-10">
+      <ul className="mt-5">
         <li>
           <div className="flex">
-            <div className="flex-shrink-0">
-              <div className="flex h-12 w-12 items-center justify-center rounded-md text-white">
-               
-              </div>
-            </div>
+            
             <div className="ml-4">
-              <h5 className="text-lg font-bold leading-6 text-gray-900">Save your Progress</h5>
-              <p className="mt-2 text-base leading-6 text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ex tempore dolorum quae facere!</p>
+              <h5 className="text-lg font-bold leading-6 text-gray-900">              Real-Time Data Insights
+              </h5>
+              <p className="mt-2 text-base leading-6 text-gray-500">
+              Gain immediate access to up-to-date financial data and insights, empowering informed decision-making and strategic planning.
+              </p>
             </div>
           </div>
         </li>
         <li className="mt-10">
           <div className="flex">
-            <div className="flex-shrink-0">
-              <div className="flex h-12 w-12 items-center justify-center rounded-md text-white">
+          
+            <div className="ml-4">
              
-              </div>
-            </div>
-            <div className="ml-4">
-              <h5 className="text-lg font-bold leading-6 text-gray-900">Bookmark your Favorites</h5>
-              <p className="mt-2 text-base leading-6 text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ex tempore dolorum quae facere!</p>
+              <h5 className="text-lg font-bold leading-6 text-gray-900"> Automated Expense Tracking</h5>
+              <p className="mt-2 text-base leading-6 text-gray-500">
+              Streamline your expense management with automated tracking and categorization, saving time and ensuring accuracy.
+              </p>
             </div>
           </div>
         </li>
         <li className="mt-10">
           <div className="flex">
-            <div className="flex-shrink-0">
-              <div className="flex h-12 w-12 items-center justify-center rounded-md text-white">
-               
-              </div>
-            </div>
+            
             <div className="ml-4">
-              <h5 className="text-lg font-bold leading-6 text-gray-900">Downloadable Files</h5>
-              <p className="mt-2 text-base leading-6 text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ex tempore dolorum quae facere!</p>
+              <h5 className="text-lg font-bold leading-6 text-gray-900"> Customizable Financial Reports</h5>
+              <p className="mt-2 text-base leading-6 text-gray-500">
+             
+Tailor-made financial reports that fit your business needs, providing clarity and transparency in your financial performance.
+
+
+              </p>
             </div>
           </div>
         </li>
