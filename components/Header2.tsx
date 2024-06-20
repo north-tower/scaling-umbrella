@@ -5,7 +5,7 @@ import { Fragment, useState } from "react";
 import { Bars3Icon , ChatBubbleLeftIcon, HomeIcon, 
     PaperAirplaneIcon,
     ChevronDownIcon, Square3Stack3DIcon,
-    PhoneIcon, PlayCircleIcon,UserGroupIcon,CpuChipIcon,PuzzlePieceIcon,CircleStackIcon,SparklesIcon,ChartBarIcon, CubeIcon,GlobeAltIcon,
+    PhoneIcon, PlayCircleIcon,UserGroupIcon,CpuChipIcon,PuzzlePieceIcon,CircleStackIcon,SparklesIcon,ChartBarIcon, CubeIcon,GlobeAltIcon,SquaresPlusIcon,
      XMarkIcon} from "@heroicons/react/24/solid";
 import { Dialog, Disclosure, Popover, Transition } from
  "@headlessui/react"
@@ -37,9 +37,9 @@ function Header2() {
     const products2 = [
         {
             name: "Values and Mission",
-            description: "Expense Tracking, Income Tracking, Invoices and Receipts",
+            description: "Our values of accuracy, integrity, and innovation drive our mission to deliver exceptional bookkeeping services, empowering businesses to achieve financial clarity and success.",
             href: "values",
-            icon: Square3Stack3DIcon,
+            icon: SquaresPlusIcon,
 
         },
         {

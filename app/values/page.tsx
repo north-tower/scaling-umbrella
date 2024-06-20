@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function page() {
@@ -37,23 +38,32 @@ At our company, we are dedicated to providing exceptional bookkeeping services t
   <div className="container mx-auto w-full max-w-screen-xl">
     <div className="w-full"> 
       <h2 className="text-center text-3xl font-extrabold">Our Values</h2>
-      <p className="mx-auto mb-4 max-w-xl py-2 text-center text-gray-600 sm:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio reprehenderit accusamus incidunt.</p>
+      <p className="mx-auto mb-4 max-w-xl py-2 text-center text-gray-600 sm:text-lg">
+      At our copamny, our values are the foundation of everything we do. We are committed to delivering excellence, fostering trust, and driving innovation to provide the best bookkeeping services for our clients.
+        
+        </p>
     </div>
     <div className="flex flex-col lg:flex-row">
       <div className="w-full p-4 text-left lg:w-1/3">
         <hr className="mb-4 h-1.5 w-1/4 bg-blue-600" />
-        <h3 className="font-sans text-4xl font-light leading-10">INNOVATE.</h3>
-        <p className="my-5 text-gray-600"> Distinctio assumenda tenetur sequi, nemo, error illum dolorem dolor voluptatum beatae dignissimos nulla dolores delectus similique blanditiis praesentium deserunt?</p>
+        <h3 className="font-sans text-4xl font-light leading-10">ACCURACY.</h3>
+        <p className="my-5 text-gray-600"> 
+        We prioritize precision in all our financial records and reporting, ensuring that your business data is reliable and trustworthy. Our meticulous approach to bookkeeping eliminates errors and supports sound financial decision-making.
+            
+            </p>
       </div>
       <div className="w-full p-4 text-left lg:w-1/3">
         <hr className="mb-4 h-1.5 w-1/4 bg-blue-600" />
-        <h3 className="font-sans text-4xl font-light leading-10">GROW.</h3>
-        <p className="my-5 text-gray-600">Deleniti earum nulla repudiandae esse delectus. Dolorem, hic animi sit pariatur ducimus commodi tempore.</p>
+        <h3 className="font-sans text-4xl font-light leading-10">INTEGRITY.</h3>
+        <p className="my-5 text-gray-600">
+        We uphold the highest standards of integrity in all our interactions and transactions. Our transparent practices and ethical principles build lasting relationships based on trust and respect, providing you with peace of mind..</p>
       </div>
       <div className="w-full p-4 text-left lg:w-1/3">
         <hr className="mb-4 h-1.5 w-1/4 bg-blue-600" />
-        <h3 className="font-sans text-4xl font-light leading-10">SERVE.</h3>
-        <p className="my-5 text-gray-600">Lorem ipsum dolor, situos unde voluptatibus corrupti similique aperiam. Molestias corporis numquam quos dolorem culpa ullam ad. Ipsa quidem excepturi mollitia? Expedita, sequi?</p>
+        <h3 className="font-sans text-4xl font-light leading-10">INNOVATION.</h3>
+        <p className="my-5 text-gray-600">
+        We leverage the latest technology and innovative practices to enhance our bookkeeping services. By staying ahead of industry trends, we offer efficient, effective, and modern solutions tailored to your business needs.
+        </p>
       </div>
     </div>
   </div>
@@ -75,10 +85,16 @@ At our company, we are dedicated to providing exceptional bookkeeping services t
 
         <div className="flex items-center  md:order-2">
           <div className="relative text-center md:pl-8  lg:pl-0">
-            <p className="text-lg font-normal text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate pariatur possimus quibusdam facilis debitis!</p>
+            <p className="text-lg font-normal text-white">Transform your business today with our expert bookkeeping solutions. Let's drive efficiency, accuracy, and growth together.
+
+            </p>
             {/* <!-- <button className="bg-white px-6 py-2 rounded-lg mt-4 font-bold hover:translate-y-1 transition">Get in Touch</button>  */}
             {/* <!-- <button className="bg-gradient-to-r from-orange-500 to-blue-700 text-white px-6 py-2 rounded-lg mt-4 font-bold hover:translate-y-1 transition">Get in Touch</button> --> */}
-            <button className="mt-4 rounded-lg bg-blue-700 px-6 py-2 font-bold text-white transition hover:translate-y-1">Get in Touch</button>
+          
+          <Link href={"/contact"}>
+          <button className="mt-4 rounded-lg bg-blue-700 px-6 py-2 font-bold text-white transition hover:translate-y-1">Get Started Now!</button>
+          
+          </Link>
             {/* <!-- <button className="bg-orange-600 text-white px-6 py-2 rounded-lg mt-4 font-bold hover:translate-y-1 transition">Get in Touch</button> --> */}
           </div>
         </div>
