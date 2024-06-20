@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Article() {
+function Article({date, title, description}: {date: string, title: string, description: string}) {
   return (
     <div>
          <article className="flex flex-col items-center gap-4 md:flex-row lg:gap-6">
@@ -9,13 +9,13 @@ function Article() {
         </a>
 
         <div className="flex flex-col gap-2">
-          <span className="text-sm text-gray-400">April 2, 2022</span>
+          <span className="text-sm text-gray-400">{date}</span>
 
           <h2 className="text-xl font-bold text-gray-800">
-            <a href="#" className="transition duration-100 hover:text-rose-500 active:text-rose-600">The Pines and the Mountains</a>
+            <a href="#" className="transition duration-100 hover:text-rose-500 active:text-rose-600">{title}</a>
           </h2>
 
-          <p className="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint necessitatibus molestias explicabo.</p>
+          <p className="text-gray-500">{description}</p>
 
           <div>
             <a href="#" className="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700">Read more</a>
