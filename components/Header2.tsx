@@ -162,7 +162,7 @@ function Header2() {
                                     className="group relative flex items-center gap-x-6
                                     rounded-lg p-4 
                                     text-sm leading-6 
-                                    hover:bg-sky-50">
+                                     hover:bg-gray-900">
                                        <div className="flex h-11 flex-none items-center justify-center rounded-lg 
                                        ">
                                         <item.icon className="h-6 w-6 text-white group-hover:text-blue-600" 
@@ -172,9 +172,9 @@ function Header2() {
                                         <div className="flex-auto">
                                             <a href={item.href} 
                                             className="block 
-                                            font-semibold text-[#013B94] "> {item.name} <span className="absolute inset-0" />
+                                            font-semibold text-white "> {item.name} <span className="absolute inset-0" />
                                             </a>
-                                            <p className="mt-1 text-[#013B94]">{item.description}</p>
+                                            <p className="mt-1 text-white">{item.description}</p>
                                         </div>
                                         </div>
                                 ))}
@@ -219,7 +219,7 @@ function Header2() {
                                     className="group relative flex items-center gap-x-6
                                     rounded-lg p-4 
                                     text-sm leading-6 
-                                    hover:bg-sky-50">
+                                    hover:bg-gray-900">
                                        <div className="flex h-11 flex-none items-center justify-center rounded-lg 
                                        ">
                                         <item.icon className="h-6 w-6 text-white group-hover:text-blue-600" 
@@ -229,15 +229,15 @@ function Header2() {
                                         <div className="flex-auto">
                                             <a href={item.href} 
                                             className="block 
-                                            font-semibold text-[#013B94] "> {item.name} <span className="absolute inset-0" />
+                                            font-semibold text-white "> {item.name} <span className="absolute inset-0" />
                                             </a>
-                                            <p className="mt-1 text-[#013B94]">{item.description}</p>
+                                            <p className="mt-1 text-white">{item.description}</p>
                                         </div>
                                         </div>
                                 ))}
                             </div>
 
-                            <div className="grid grid-cols-2 divide-x divide-gray-900/5 ">
+                            {/* <div className="grid grid-cols-2 divide-x divide-gray-900/5 ">
                                 {callsToAction.map((item) => (
                                     <a key={item.name}
                                     href={item.href}
@@ -246,7 +246,7 @@ function Header2() {
                                         {item.name}
                                     </a>
                                 ))}
-                            </div>
+                            </div> */}
                         </Popover.Panel>
                     </Transition>
                 </Popover>
