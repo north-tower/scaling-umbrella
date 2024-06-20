@@ -11,7 +11,12 @@ function page() {
 
                 <h1 className="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left">Operational since 1967</h1>
 
-                <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus accusamus esse cum, praesentium laudantium enim pariatur magnam accusantium illum animi? Quos quisquam at laborum eius?</p>
+                <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
+               
+
+Operational since 1967, our bookkeeping firm has been a trusted partner for businesses across various industries. With over five decades of experience, we have honed our expertise in financial management, offering tailored solutions that meet the unique needs of our clients. Our long-standing commitment to excellence and integrity has earned us a reputation for reliability and precision. As we continue to evolve with the latest industry advancements, our focus remains on delivering exceptional service and empowering businesses to achieve their financial goals.
+                   
+                   </p>
             </div>
             <div>
                 <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
@@ -21,7 +26,9 @@ function page() {
             <div className="md:col-span-2">
                 <h2 className="mb-2 text-center text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4 md:text-left">About us</h2>
 
-                <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veritatis a suscipit similique cum obcaecati maxime, fugit officia sunt. Laudantium est repellendus, necessitatibus totam, deleniti distinctio aliquid assumenda dolore voluptas molestiae perspiciatis temporibus ex ea.</p>
+                <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
+
+At our company, we are dedicated to providing exceptional bookkeeping services tailored to the unique needs of each client. With a rich history dating back to 1967, our team of experienced professionals combines deep industry knowledge with cutting-edge technology to ensure accurate, efficient, and compliant financial management. We understand the complexities of running a business, which is why we offer a comprehensive range of services, from expense and income tracking to financial forecasting and reporting. Our mission is to alleviate the burden of financial administration, allowing you to focus on what you do best—growing your business. Trust us to be your reliable partner in achieving financial clarity and success..</p>
             </div>
             </div>
         </div>  
@@ -57,18 +64,18 @@ function page() {
 <section className="bg-white py-12 text-gray-900 sm:py-16 lg:py-20">
   <div className="mx-auto max-w-screen-lg sm:px-6 lg:px-8">
     <div className="mx-auto text-center">
-      <h2 className="capital text-3xl font-bold sm:text-4xl xl:text-5xl">We connect you with your customers</h2>
+      <h2 className="capital text-3xl font-bold sm:text-4xl xl:text-4xl">Learn how we can transform your business</h2>
     </div>
 
     <div className="mx-auto mt-8 max-w-lg overflow-hidden bg-gray-900 sm:mt-12 md:max-w-4xl lg:mt-16">
       <div className="relative px-6 pb-12 md:px-8 md:py-10 lg:py-12">
-        <div className="top-0 md:absolute">
+        {/* <div className="top-0 md:absolute">
           <img className="w-full md:max-w-xs" src="/images/ycltIS1VMbdCGjzz3nt97.png" alt="" />
-        </div>
+        </div> */}
 
-        <div className="flex items-center justify-end md:order-2">
-          <div className="relative text-center md:w-1/2 md:pl-8 md:text-left lg:pl-0">
-            <p className="text-lg font-normal text-white md:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate pariatur possimus quibusdam facilis debitis!</p>
+        <div className="flex items-center  md:order-2">
+          <div className="relative text-center md:pl-8  lg:pl-0">
+            <p className="text-lg font-normal text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate pariatur possimus quibusdam facilis debitis!</p>
             {/* <!-- <button className="bg-white px-6 py-2 rounded-lg mt-4 font-bold hover:translate-y-1 transition">Get in Touch</button>  */}
             {/* <!-- <button className="bg-gradient-to-r from-orange-500 to-blue-700 text-white px-6 py-2 rounded-lg mt-4 font-bold hover:translate-y-1 transition">Get in Touch</button> --> */}
             <button className="mt-4 rounded-lg bg-blue-700 px-6 py-2 font-bold text-white transition hover:translate-y-1">Get in Touch</button>
