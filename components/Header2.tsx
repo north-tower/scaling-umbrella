@@ -51,7 +51,7 @@ function Header2() {
         {
             name: "Careers",
             description: "Accounting Software, Payment Gateways, CRM , Bank Integration ",
-            href: "#",
+            href: "careers",
             icon: PuzzlePieceIcon,
         },
     ];
