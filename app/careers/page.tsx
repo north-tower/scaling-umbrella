@@ -41,7 +41,7 @@ Join us and experience a workplace where your professional ambitions and persona
             <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 01-.657.643 48.39 48.39 0 01-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 01-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 00-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .555.26.532.57a48.039 48.039 0 01-.642 5.056c1.518.19 3.058.309 4.616.354a.64.64 0 00.657-.643v0c0-.355-.186-.676-.401-.959a1.647 1.647 0 01-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.4.604-.4.959v0c0 .333.277.599.61.58a48.1 48.1 0 005.427-.63 48.05 48.05 0 00.582-4.717.532.532 0 00-.533-.57v0c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.035 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.37 0 .713.128 1.003.349.283.215.604.401.96.401v0a.656.656 0 00.658-.663 48.422 48.422 0 00-.37-5.36c-1.886.342-3.81.574-5.766.689a.578.578 0 01-.61-.58v0z"></path>
           </svg>
         </span>
-        <span className="font-medium">New Puzzles Everyday</span>
+        <span className="font-medium text-gray-400">New Puzzles Everyday</span>
       </div>
       <div className="flex space-x-2">
         <span className="text-blue-400">
@@ -49,7 +49,7 @@ Join us and experience a workplace where your professional ambitions and persona
             <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 01-.657.643 48.39 48.39 0 01-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 01-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 00-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .555.26.532.57a48.039 48.039 0 01-.642 5.056c1.518.19 3.058.309 4.616.354a.64.64 0 00.657-.643v0c0-.355-.186-.676-.401-.959a1.647 1.647 0 01-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.4.604-.4.959v0c0 .333.277.599.61.58a48.1 48.1 0 005.427-.63 48.05 48.05 0 00.582-4.717.532.532 0 00-.533-.57v0c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.035 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.37 0 .713.128 1.003.349.283.215.604.401.96.401v0a.656.656 0 00.658-.663 48.422 48.422 0 00-.37-5.36c-1.886.342-3.81.574-5.766.689a.578.578 0 01-.61-.58v0z"></path>
           </svg>
         </span>
-        <span className="font-medium">Daily Activities</span>
+        <span className="font-medium text-gray-400">Daily Activities</span>
       </div>
       <div className="flex space-x-2">
         <span className="text-blue-400">
@@ -57,7 +57,7 @@ Join us and experience a workplace where your professional ambitions and persona
             <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 01-.657.643 48.39 48.39 0 01-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 01-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 00-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .555.26.532.57a48.039 48.039 0 01-.642 5.056c1.518.19 3.058.309 4.616.354a.64.64 0 00.657-.643v0c0-.355-.186-.676-.401-.959a1.647 1.647 0 01-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.4.604-.4.959v0c0 .333.277.599.61.58a48.1 48.1 0 005.427-.63 48.05 48.05 0 00.582-4.717.532.532 0 00-.533-.57v0c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.035 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.37 0 .713.128 1.003.349.283.215.604.401.96.401v0a.656.656 0 00.658-.663 48.422 48.422 0 00-.37-5.36c-1.886.342-3.81.574-5.766.689a.578.578 0 01-.61-.58v0z"></path>
           </svg>
         </span>
-        <span className="font-medium">Weekly Competitions</span>
+        <span className="font-medium text-gray-400">Weekly Competitions</span>
       </div>
       <div className="flex space-x-2">
         <span className="text-blue-400">
@@ -65,7 +65,7 @@ Join us and experience a workplace where your professional ambitions and persona
             <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 01-.657.643 48.39 48.39 0 01-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 01-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 00-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .555.26.532.57a48.039 48.039 0 01-.642 5.056c1.518.19 3.058.309 4.616.354a.64.64 0 00.657-.643v0c0-.355-.186-.676-.401-.959a1.647 1.647 0 01-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.4.604-.4.959v0c0 .333.277.599.61.58a48.1 48.1 0 005.427-.63 48.05 48.05 0 00.582-4.717.532.532 0 00-.533-.57v0c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.035 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.37 0 .713.128 1.003.349.283.215.604.401.96.401v0a.656.656 0 00.658-.663 48.422 48.422 0 00-.37-5.36c-1.886.342-3.81.574-5.766.689a.578.578 0 01-.61-.58v0z"></path>
           </svg>
         </span>
-        <span className="font-medium">Challenges and Quizzes</span>
+        <span className="font-medium text-gray-400">Challenges and Quizzes</span>
       </div>
     </div>
     <div className="text-gray-400">and more...</div>
@@ -79,7 +79,7 @@ Join us and experience a workplace where your professional ambitions and persona
     <h2 className="mb-8 text-3xl font-bold text-white lg:mb-20 lg:text-center lg:text-5xl">Employee Benefits</h2>
     <div className="flex flex-col lg:flex-row">
       <div className="self-center pr-5 lg:w-1/2">
-        <p className="mb-4 text-base">
+        <p className="mb-4 text-base text-white">
 
 At our company, we prioritize the well-being and satisfaction of our employees by offering a comprehensive benefits package. Our benefits include competitive salaries, comprehensive health insurance plans, and generous paid time off to ensure a healthy work-life balance. We provide ongoing professional development opportunities, including training programs and tuition reimbursement, to support your career growth. Additionally, our flexible work arrangements, such as remote work options and flexible hours, accommodate your personal needs. We also offer retirement savings plans with company contributions to help secure your financial future. Join our team and enjoy a supportive work environment where your contributions are valued and your well-being is a top priority.</p>
         {/* <p className="mb-4 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis et maiores ex numquam repellat? Iure, illum illo nisi explicabo deleniti amet sapiente repudiandae blanditiis ullam esse nostrum neque eveniet impedit nesciunt, sint inventore reprehenderit cumque! Vero dolor facere cumque ad.</p> */}
@@ -95,14 +95,14 @@ At our company, we prioritize the well-being and satisfaction of our employees b
               <path fill="currentColor" d="M224 448a120 120 0 0 1-45.248-231.135l-3.779-32.75C115.143 204.558 72 261.334 72 328c0 83.813 68.187 152 152 152a152.06 152.06 0 0 0 130.044-73.378L344 360c-16 48-61.4 88-120 88Z" />
             </svg>
           </div>
-          <p className="mb-2 text-base font-medium text-gray-600">Employee Health Insurance</p>
+          <p className="mb-2 text-base font-medium text-gray-300">Employee Health Insurance</p>
         </div>
         <div className="flex items-center">
           <div className="mr-3 rounded-full bg-teal-100 p-6 text-7xl text-teal-800">
            
             <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48"><path fill="currentColor" fill-rule="evenodd" d="M17 7a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3h3a3 3 0 0 1 3 3v16h-2V10a1 1 0 0 0-1-1h-3a3 3 0 0 1-3 3h-8a3 3 0 0 1-3-3h-3a1 1 0 0 0-1 1v28a1 1 0 0 0 1 1h10v2H14a3 3 0 0 1-3-3V10a3 3 0 0 1 3-3h3Zm3-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-8Zm3 10v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Zm1 13.665v4a1 1 0 0 0 1 1h4v-2h-1.475l1.253-1.178a5 5 0 0 1 8.273 1.845l1.885-.667a7.001 7.001 0 0 0-11.538-2.625L26 31.353v-1.688h-2Zm11.667 5.667h4a1 1 0 0 1 1 1v4h-2v-1.688l-1.398 1.313a7 7 0 0 1-11.538-2.625l1.885-.667a5 5 0 0 0 8.273 1.845l1.253-1.178h-1.475v-2Z" clip-rule="evenodd" /></svg>
           </div>
-          <p className="mb-2 text-base font-medium text-gray-600">Regular Checkups</p>
+          <p className="mb-2 text-base font-medium text-gray-300">Regular Checkups</p>
         </div>
         <div className="flex items-center">
           <div className="mr-3 rounded-full bg-teal-100 p-6 text-7xl text-teal-800">
@@ -112,7 +112,7 @@ At our company, we prioritize the well-being and satisfaction of our employees b
               <path fill="currentColor" d="M19 14c-1.654 0-3 1.346-3 3c0 3.188 3 5 3 5s3-1.813 3-5c0-1.654-1.346-3-3-3zm0 4.5a1.5 1.5 0 1 1 .001-3.001A1.5 1.5 0 0 1 19 18.5z" />
             </svg>
           </div>
-          <p className="mb-2 text-base font-medium text-gray-600">Well-Being</p>
+          <p className="mb-2 text-base font-medium text-gray-300">Well-Being</p>
         </div>
         <div className="flex items-center">
           <div className="mr-3 rounded-full bg-teal-100 p-6 text-7xl text-teal-800">
@@ -147,6 +147,29 @@ At our company, we prioritize the well-being and satisfaction of our employees b
     </div>
   </div>
 </section>
+
+<div className="mx-auto my-10 flex max-w-xl flex-col rounded-2xl border bg-black px-4 py-4 shadow-lg sm:max-w-lg sm:flex-row">
+  <div className="sm:mr-6">
+    <img className="h-[13rem] w-full rounded-2xl object-cover sm:w-56" src="https://images.unsplash.com/photo-1663275164457-ee8ae128eeb2?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyN3x8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=200&amp;q=60" alt="" />
+  </div>
+  <div className="py-8 pr-8">
+    <p className="text-xl font-medium text-white">Subscribe to Newsletter</p>
+    <p className="mb-4 text-white">Never miss any updates</p>
+    <div className="flex">
+      <div className="mr-1 w-full">
+        <input type="email" className="placeholder:text-gray-400 h-12 w-full bg-black
+        rounded-md bg-gray-200 px-4 font-medium focus:outline-none focus:ring-1 focus:ring-blue-600" placeholder="Enter your email" />
+      </div>
+      <button className="shrink-0 flex h-12 w-12 items-center justify-center rounded-lg bg-blue-600 text-white hover:bg-blue-700">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
+          <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+          <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
 
     </div>
   )
