@@ -6,9 +6,6 @@ type Props = {
   }
 }
 
-
-
-
 const blogPosts = [
 
   {
@@ -137,6 +134,7 @@ function Page({ params: {postId}}: Props) {
             date={post.date}
             title={post.title}
             description={post.description}
+            image={post.image}
             
           />
         ))} 

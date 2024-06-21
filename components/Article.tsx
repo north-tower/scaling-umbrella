@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Article({id,date, title, description}: {id: number, date: string, title: string, description: string}) {
+function Article({id,date, title, description, image}: {id: number, date: string, title: string, description: string, image: string}) {
   return (
     <div>
          <article className="flex flex-col items-center gap-4 md:flex-row lg:gap-6">
         <a href="#" className="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
-          <img src="https://images.unsplash.com/photo-1476362555312-ab9e108a0b7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" loading="lazy" alt="" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <img src={image} />
         </a>
 
         <div className="flex flex-col gap-2">
