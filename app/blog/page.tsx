@@ -69,11 +69,7 @@ function page() {
           description={post.description}
           
         />
-      ))}
-
-  
-    
-     
+      ))} 
     </div>
   </div>
 </section>
