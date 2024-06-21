@@ -78,7 +78,7 @@ As a user of our companys bookkeeping services, it is essential to uphold respon
 This includes providing accurate and complete information for our bookkeeping processes to ensure the integrity of financial reporting. Respect for
  confidentiality is paramount; users must safeguard sensitive financial data and refrain from disclosing it to unauthorized parties. Compliance with 
  applicable laws and regulations governing financial practices is mandatory. Professional and respectful communication is expected among users and with our team.
-  Any attempt to disrupt our systems' integrity is strictly prohibited. Timely adherence to payment obligations ensures the seamless provision of our services. 
+  Any attempt to disrupt our systems integrity is strictly prohibited. Timely adherence to payment obligations ensures the seamless provision of our services. 
   By adhering to these conduct guidelines, users contribute to a secure, efficient, and collaborative environment essential for effective financial management.</p>
       </div>
       <div className="lg:col-span-2">

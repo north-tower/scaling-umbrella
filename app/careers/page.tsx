@@ -32,7 +32,7 @@ function page() {
 At [Your Company Name], we believe in the perfect balance of hard work and fun. Our vibrant company culture fosters an environment where dedication and enjoyment go hand in hand. We understand that a happy, engaged team is a productive one, so we prioritize activities and benefits that support both professional excellence and personal well-being.
 
 From team-building events and company outings to on-site recreational facilities and wellness programs, we ensure theres always an opportunity to unwind 
-and recharge. Whether it's celebrating milestones, participating in friendly competitions, or enjoying our casual Fridays, we make sure that your time 
+and recharge. Whether its celebrating milestones, participating in friendly competitions, or enjoying our casual Fridays, we make sure that your time 
 at work is as enjoyable as it is rewarding.
 
 Join us and experience a workplace where your professional ambitions and personal happiness are both valued and nurtured. At [Your Company Name], 
