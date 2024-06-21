@@ -127,17 +127,16 @@ function Page({ params: {postId}}: Props) {
    
     <div className="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-2 xl:grid-cols-2 xl:gap-16">
 
-        {blogPosts.map((post, index) => (
-          <Article
-            key={index}
-            id={index}
-            date={post.date}
-            title={post.title}
-            description={post.description}
-            image={post.image}
-            
-          />
-        ))} 
+    {blogPosts.slice(0, 4).map((post, index) => (
+        <Article
+          key={post.id} // It's better to use unique keys like post.id instead of the index
+          id={post.id}
+          date={post.date}
+          title={post.title}
+          description={post.description}
+          image={post.image}
+        />
+      ))}
 </div>
   </div>
 </aside>
