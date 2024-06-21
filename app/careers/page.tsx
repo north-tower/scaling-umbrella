@@ -31,9 +31,12 @@ function page() {
 
 At [Your Company Name], we believe in the perfect balance of hard work and fun. Our vibrant company culture fosters an environment where dedication and enjoyment go hand in hand. We understand that a happy, engaged team is a productive one, so we prioritize activities and benefits that support both professional excellence and personal well-being.
 
-From team-building events and company outings to on-site recreational facilities and wellness programs, we ensure there's always an opportunity to unwind and recharge. Whether it's celebrating milestones, participating in friendly competitions, or enjoying our casual Fridays, we make sure that your time at work is as enjoyable as it is rewarding.
+From team-building events and company outings to on-site recreational facilities and wellness programs, we ensure theres always an opportunity to unwind 
+and recharge. Whether it's celebrating milestones, participating in friendly competitions, or enjoying our casual Fridays, we make sure that your time 
+at work is as enjoyable as it is rewarding.
 
-Join us and experience a workplace where your professional ambitions and personal happiness are both valued and nurtured. At [Your Company Name], we play hard and work hard, ensuring that every day is both fulfilling and fun..</p>
+Join us and experience a workplace where your professional ambitions and personal happiness are both valued and nurtured. At [Your Company Name], 
+we play hard and work hard, ensuring that every day is both fulfilling and fun..</p>
     <div className="mb-4 space-y-4">
       <div className="flex space-x-2">
         <span className="text-blue-400">
@@ -150,7 +153,8 @@ At our company, we prioritize the well-being and satisfaction of our employees b
 
 <div className="mx-auto my-10 flex max-w-xl flex-col rounded-2xl border bg-black px-4 py-4 shadow-lg sm:max-w-lg sm:flex-row">
   <div className="sm:mr-6">
-    <img className="h-[13rem] w-full rounded-2xl object-cover sm:w-56" src="https://images.unsplash.com/photo-1663275164457-ee8ae128eeb2?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyN3x8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=200&amp;q=60" alt="" />
+    <img className="h-[13rem] w-full rounded-2xl object-cover sm:w-56" 
+    src="https://images.unsplash.com/photo-1663275164457-ee8ae128eeb2?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyN3x8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=200&amp;q=60" alt="" />
   </div>
   <div className="py-8 pr-8">
     <p className="text-xl font-medium text-white">Subscribe to Newsletter</p>
