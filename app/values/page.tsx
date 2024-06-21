@@ -85,7 +85,8 @@ At our company, we are dedicated to providing exceptional bookkeeping services t
 
         <div className="flex items-center  md:order-2">
           <div className="relative text-center md:pl-8  lg:pl-0">
-            <p className="text-lg font-normal text-white">Transform your business today with our expert bookkeeping solutions. Let's drive efficiency, accuracy, and growth together.
+            <p className="text-lg font-normal text-white">Transform your business today with our expert bookkeeping solutions. Lets drive efficiency, 
+              accuracy, and growth together.
 
             </p>
             {/* <!-- <button className="bg-white px-6 py-2 rounded-lg mt-4 font-bold hover:translate-y-1 transition">Get in Touch</button>  */}

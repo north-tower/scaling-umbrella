@@ -22,7 +22,11 @@ function page() {
         <p className="mb-1 font-medium">Summary</p>
         <p className="">
 
-By utilizing our company's bookkeeping services, you agree to comply with our terms of service. Our services are provided with the utmost accuracy and integrity, ensuring that your financial data is handled securely and confidentially. We commit to delivering timely and precise financial reports, while expecting clients to provide accurate information and timely communication. Our terms include adherence to payment schedules, respect for intellectual property rights, and compliance with relevant laws and regulations. We reserve the right to modify these terms as necessary and will notify clients of any significant changes. Your continued use of our services signifies your acceptance of these terms.</p>
+By utilizing our companys bookkeeping services, you agree to comply with our terms of service. Our services are provided with the utmost accuracy and integrity,
+ ensuring that your financial data is handled securely and confidentially. We commit to delivering timely and precise financial reports, while expecting 
+ clients to provide accurate information and timely communication. Our terms include adherence to payment schedules, respect for intellectual property rights,
+  and compliance with relevant laws and regulations. We reserve the right to modify these terms as necessary and will notify clients of any significant changes.
+   Your continued use of our services signifies your acceptance of these terms.</p>
       </div>
       <div className="lg:col-span-2">
         <p className="font-medium">Download</p>
@@ -36,7 +40,8 @@ By utilizing our company's bookkeeping services, you agree to comply with our te
 
       <div className="mr-20 text-gray-600 lg:col-span-5">
         <p className="mb-1 font-medium">Summary</p>
-        <p className="">At our company, we are committed to protecting your privacy and ensuring the security of your personal and financial information. This Privacy Policy outlines how we collect, use, and safeguard your data.
+        <p className="">At our company, we are committed to protecting your privacy and ensuring the security of your personal and financial information. 
+          This Privacy Policy outlines how we collect, use, and safeguard your data.
 
 Information Collection and Use:
 We collect personal information such as your name, contact details, and financial data to provide our bookkeeping services. This information is used solely for the purpose of delivering our services and improving your experience with us.
@@ -48,10 +53,12 @@ Sharing of Information:
 We do not share your personal information with third parties except as required by law or with your explicit consent. Any data shared with our partners or service providers is strictly for the purpose of fulfilling our services and is protected by confidentiality agreements.
 
 Your Rights:
-You have the right to access, update, or delete your personal information at any time. If you have any questions or concerns about your data, please contact us, and we will address your queries promptly.
+You have the right to access, update, or delete your personal information at any time. If you have any questions or concerns about your data, please contact us,
+ and we will address your queries promptly.
 
 Changes to This Policy:
-We may update our Privacy Policy periodically to reflect changes in our practices or for legal compliance. We will notify you of any significant updates and encourage you to review this policy regularly.</p>
+We may update our Privacy Policy periodically to reflect changes in our practices or for legal compliance. We will notify you of any significant updates and 
+encourage you to review this policy regularly.</p>
       </div>
       <div className="lg:col-span-2">
         <p className="font-medium">Download</p>
@@ -67,7 +74,12 @@ We may update our Privacy Policy periodically to reflect changes in our practice
         <p className="mb-1 font-medium">Summary</p>
         <p className="">
 
-As a user of our companys bookkeeping services, it is essential to uphold responsible conduct in all interactions and transactions. This includes providing accurate and complete information for our bookkeeping processes to ensure the integrity of financial reporting. Respect for confidentiality is paramount; users must safeguard sensitive financial data and refrain from disclosing it to unauthorized parties. Compliance with applicable laws and regulations governing financial practices is mandatory. Professional and respectful communication is expected among users and with our team. Any attempt to disrupt our systems' integrity is strictly prohibited. Timely adherence to payment obligations ensures the seamless provision of our services. By adhering to these conduct guidelines, users contribute to a secure, efficient, and collaborative environment essential for effective financial management.</p>
+As a user of our companys bookkeeping services, it is essential to uphold responsible conduct in all interactions and transactions. 
+This includes providing accurate and complete information for our bookkeeping processes to ensure the integrity of financial reporting. Respect for
+ confidentiality is paramount; users must safeguard sensitive financial data and refrain from disclosing it to unauthorized parties. Compliance with 
+ applicable laws and regulations governing financial practices is mandatory. Professional and respectful communication is expected among users and with our team.
+  Any attempt to disrupt our systems' integrity is strictly prohibited. Timely adherence to payment obligations ensures the seamless provision of our services. 
+  By adhering to these conduct guidelines, users contribute to a secure, efficient, and collaborative environment essential for effective financial management.</p>
       </div>
       <div className="lg:col-span-2">
         <p className="font-medium">Download</p>
