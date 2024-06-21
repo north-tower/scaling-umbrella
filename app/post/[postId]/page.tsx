@@ -9,7 +9,7 @@ type Props = {
 const blogPosts = [
 
   {
-    id:1,
+    id:0,
     date: "2024-06-01",
     title: "The Importance of Accurate Bookkeeping",
     shortDescription: "Discover why precise bookkeeping is crucial for business success.",
@@ -19,7 +19,7 @@ const blogPosts = [
  
   },
   {
-    id:2,
+    id:1,
     date: "2024-06-05",
     title: "Automating Your Bookkeeping: Benefits and Best Practices",
     shortDescription: "Learn how automation can streamline your bookkeeping process.",
@@ -29,7 +29,7 @@ const blogPosts = [
   
   },
   {
-    id:3,
+    id:2,
     date: "2024-06-10",
     title: "Managing Cash Flow Effectively",
     shortDescription: "Strategies to maintain a healthy cash flow for your business.",
@@ -38,7 +38,7 @@ const blogPosts = [
     image: "https://images.unsplash.com/photo-1594122230689-45899d9e6f69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXdhcmRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
   },
   {
-    id:4,
+    id:3,
     date: "2024-06-15",
     title: "Understanding Financial Statements",
     shortDescription: "A guide to interpreting and using financial statements for business decisions.",
@@ -47,7 +47,7 @@ const blogPosts = [
     image: "https://images.unsplash.com/photo-1594122230689-45899d9e6f69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXdhcmRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
   },
   {
-    id:5,
+    id:4,
     date: "2024-06-20",
     title: "The Role of a Bookkeeper in Small Businesses",
     shortDescription: "Explore how bookkeepers support small business success.",
@@ -57,7 +57,7 @@ const blogPosts = [
 
   },
   {
-    id:6,
+    id:5,
     date: "2024-06-25",
     title: "Tax Preparation Tips for Small Businesses",
     shortDescription: "Essential tips to simplify tax preparation for your small business.",
