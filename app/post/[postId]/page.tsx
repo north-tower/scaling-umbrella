@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 
 export type Posts = {
@@ -12,7 +12,7 @@ export type Posts = {
 
 async function fetchData() {
   try {
-    const response = await fetch('https://supreme-goggles-beta.vercel.app/api/v1/getAllBudgetUsages');
+    const response = await fetch('https://jsonkeeper.com/b/TIAZ');
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
@@ -26,6 +26,14 @@ async function fetchData() {
 
 
 function page() {
+  const [data, setData] = useState<Posts[]>([]);
+
+  useEffect(() => {
+    fetchData().then(setData);
+  }, []);
+
+
+  console.log(data);
   return (
     <div>page</div>
   )
