@@ -10,6 +10,7 @@ import { Bars3Icon , ChatBubbleLeftIcon, HomeIcon,
 import { Dialog, Disclosure, Popover, Transition } from
  "@headlessui/react"
 import { cn } from "@/lib/utils";
+import { Link2Icon } from "lucide-react";
 
 
 
@@ -21,14 +22,14 @@ function Header2() {
         {
             name: "Outsourced Bookkeeping Services",
             description: "Outsourcing bookkeeping services provide businesses with expert financial management without the overhead of an in-house team.By leveraging professional bookkeepers, businesses can ensure accurate transaction recording, expense tracking, and financial reporting.This service allows business owners to focus on growth and operations while maintaining precise and compliant financial records.",
-            href: "services",
+            href: "/services",
             icon: UserGroupIcon, 
 
         },
         {
             name: "Financial Forecasting",
             description: "Financial forecasting involves predicting future financial performance based on historical data, current trends, and market conditions. This process helps businesses plan strategically, allocate resources effectively, and make informed decisions. By utilizing advanced modeling techniques and scenario analysis, financial forecasting provides valuable insights into potential future outcomes, ensuring better preparedness and optimized growth strategies.",
-            href: "forecast",
+            href: "/forecast",
             icon: CpuChipIcon,
         },
        
@@ -38,20 +39,20 @@ function Header2() {
         {
             name: "Values and Mission",
             description: "Our values of accuracy, integrity, and innovation drive our mission to deliver exceptional bookkeeping services, empowering businesses to achieve financial clarity and success.",
-            href: "values",
+            href: "/values",
             icon: SquaresPlusIcon,
 
         },
         {
             name: "Terms of service",
             description: "Our terms of service govern the use of our bookkeeping services, ensuring compliance with data accuracy, confidentiality, and legal standards for a secure and reliable financial management partnership. ",
-            href: "terms",
+            href: "/terms",
             icon: ShieldExclamationIcon,
         },
         {
             name: "Careers",
             description: "Join our team and build a rewarding career with at our company ",
-            href: "careers",
+            href: "/careers",
             icon: BellIcon,
         },
     ];
@@ -131,11 +132,11 @@ function Header2() {
             </div>
 
             <Popover.Group className="hidden lg:flex lg:gap-x-12">
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
+            <Link href="/" className="text-sm font-semibold leading-6 text-white">
                    <span >
                    Home
                     </span> 
-                </a>
+                </Link>
                 <Popover className="relative">
                     <Popover.Button className="flex items-center
                     gap-x-1 text-sm font-semibold leading-6 text-white ">
@@ -170,10 +171,10 @@ function Header2() {
                                        
                                         </div>
                                         <div className="flex-auto">
-                                            <a href={item.href} 
+                                            <Link href={item.href} 
                                             className="block 
                                             font-semibold text-white "> {item.name} <span className="absolute inset-0" />
-                                            </a>
+                                            </Link>
                                             <p className="mt-1 text-white">{item.description}</p>
                                         </div>
                                         </div>
@@ -182,12 +183,12 @@ function Header2() {
 
                             <div className="grid grid-cols-2 divide-x divide-gray-900/5 ">
                                 {callsToAction.map((item) => (
-                                    <a key={item.name}
+                                    <Link key={item.name}
                                     href={item.href}
                                     className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-[#013B94] hover:bg-gray-100">
                                         <item.icon className="h-5 w-5 flex-none text-[#013B94]" aria-hidden="true" />
                                         {item.name}
-                                    </a>
+                                    </Link>
                                 ))}
                             </div>
                         </Popover.Panel>
@@ -195,9 +196,9 @@ function Header2() {
                 </Popover>
               
                
-                  <a href="/blog" className="text-sm font-semibold leading-6 text-white ">
+                  <Link href="/blog" className="text-sm font-semibold leading-6 text-white ">
                     Blog
-                </a>
+                </Link>
                 <Popover className="relative">
                     <Popover.Button className="flex items-center
                     gap-x-1 text-sm font-semibold leading-6 text-white ">
@@ -232,10 +233,10 @@ function Header2() {
                                        
                                         </div>
                                         <div className="flex-auto">
-                                            <a href={item.href} 
+                                            <Link href={item.href} 
                                             className="block 
                                             font-semibold text-white "> {item.name} <span className="absolute inset-0" />
-                                            </a>
+                                            </Link>
                                             <p className="mt-1 text-white">{item.description}</p>
                                         </div>
                                         </div>
@@ -258,9 +259,9 @@ function Header2() {
                   {/* <a href="/about" className="text-sm font-semibold leading-6 text-white ">
                     About Us
                 </a> */}
-               <a href="/contact" className="text-sm font-semibold leading-6 text-white ">
+               <Link href="/contact" className="text-sm font-semibold leading-6 text-white ">
                     Contact Us
-                </a>
+                </Link>
                 
             </Popover.Group>
          
@@ -282,11 +283,11 @@ function Header2() {
             overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1
             sm:ring-gray-900/10">
                 <div className="flex items-center justify-between">
-                    <a href="#" className="-m-1.5 p-1.5 text-white text-2xl">
+                    <Link href="/" className="-m-1.5 p-1.5 text-white text-2xl">
                         faAs
                         
                    
-                        </a>
+                        </Link>
                         <button type="button" className="-m-2.5 
                         rounded-md p-2.5 text-white"
                         onClick={() => setMobileMenuOpen(false)} >
@@ -322,9 +323,9 @@ function Header2() {
                                         </>
                                     )}
                             </Disclosure>
-                            <a href="/blog"
+                            <Link href="/blog"
                             className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-blue-800">
-                                Blog</a> 
+                                Blog</Link> 
                                 <Disclosure className="-mx-3" as="div" > 
                                     {( {open} )  => (
                                         <>
@@ -358,9 +359,9 @@ function Header2() {
                         </div>
 
                         <div className="py-6">
-                            <a href="#" className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-blue-800">
+                            <Link href="#" className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-blue-800">
                                 Log in
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
