@@ -77,9 +77,9 @@ function Page({ params: {postId}}: Props) {
 <main>
   <article>
     <header className="mx-auto mt-20 max-w-screen-lg rounded-t-lg bg-white pt-16 text-center shadow-lg">
-      <p className="text-gray-500">Published April 4, 2022</p>
-      <h1 className="mt-2 text-4xl font-bold text-gray-900 sm:text-5xl">Why quit now?</h1>
-      <p className="mt-6 text-lg text-gray-700">You've come way farther than you expected</p>
+      <p className="text-gray-500">Published {post.date}</p>
+      <h1 className="mt-2 text-4xl font-bold text-gray-900 sm:text-5xl">{post.title}</h1>
+      <p className="mt-6 text-lg text-gray-700">{post.shortDescription}</p>
       <div className="mt-6 flex flex-wrap justify-center gap-2">
         <button className="rounded-lg bg-gray-100 px-2 py-1 font-medium text-gray-600 hover:bg-gray-200">Marketing</button>
         <button className="rounded-lg bg-gray-100 px-2 py-1 font-medium text-gray-600 hover:bg-gray-200">Branding</button>
@@ -90,13 +90,13 @@ function Page({ params: {postId}}: Props) {
     </header>
 
     <div className="mx-auto max-w-screen-lg space-y-12 rounded-b-lg bg-white px-8 pt-10 pb-20 font-serif text-lg tracking-wide text-gray-700 sm:shadow-lg">
-      <h2 className="text-2xl font-semibold">First Steps to Life Betterment</h2>
+      
       <blockquote className="max-w-lg border-l-4 px-4">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda maiores tempora quod ducimus dolore!
-        <span className="whitespace-nowrap text-sm">— Daniel Lehmer</span>
+        {post.description}
+        <span className="whitespace-nowrap text-sm">— Author</span>
       </blockquote>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto enim maxime sit laudantium! Dolore atque, maxime iusto ut quas distinctio reiciendis animi voluptatibus soluta molestias, mollitia officiis laboriosam illum earum.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus similique reiciendis et recusandae provident repellendus rem doloremque eaque error assumenda?</p>
+      <p>{post.longDescription}</p>
+      {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus similique reiciendis et recusandae provident repellendus rem doloremque eaque error assumenda?</p> */}
     </div>
   </article>
 </main>
