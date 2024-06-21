@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Article({date, title, description}: {date: string, title: string, description: string}) {
+function Article({id,date, title, description}: {id: number, date: string, title: string, description: string}) {
   return (
     <div>
          <article className="flex flex-col items-center gap-4 md:flex-row lg:gap-6">
@@ -18,7 +18,7 @@ function Article({date, title, description}: {date: string, title: string, descr
           <p className="text-gray-500">{description}</p>
 
           <div>
-            <a href="#" className="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700">Read more</a>
+            <a href="#" className="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700">Read more{id}</a>
           </div>
         </div>
       </article>

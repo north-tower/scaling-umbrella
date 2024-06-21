@@ -63,6 +63,7 @@ function page() {
     {blogPosts.map((post, index) => (
         <Article
           key={index}
+          id={index}
           date={post.date}
           title={post.title}
           description={post.description}
