@@ -109,7 +109,7 @@ function Header2() {
             <div className="flex lg:flex-1">
                 <Link href="/" 
                  className="-m-1.5 p-1.5 text-white text-2xl">
-                faAs
+                Virma Services
               
                 
                 </Link>
