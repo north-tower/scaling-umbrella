@@ -1,6 +1,7 @@
 'use client'
 
 import Form from '@/components/Form';
+import MainMap from '@/components/MainMap';
 import React, { ChangeEvent, FormEvent, useState } from 'react'
 
 
@@ -18,6 +19,7 @@ function page({}: Props) {
    
     
   return (
+    <>
     <div className="bg-black">
         <div className="font-sans text-base text-white sm:px-10 bg-black">
             <div className="text-base text-white">
@@ -34,8 +36,18 @@ function page({}: Props) {
             </div>
 </div>
 <Form />
+
+
     </div>
-  )
+    <div className='flex'>
+
+    <section className="flex-1">
+          <MainMap  />
+        </section>
+    </div>
+    
+    </>
+  )   
 }
 
 export default page
