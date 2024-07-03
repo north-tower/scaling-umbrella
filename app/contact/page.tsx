@@ -42,7 +42,10 @@ function page({}: Props) {
     <div className='flex'>
 
     <section className="flex-1">
-          <MainMap  className="w-full h-1/2" />
+        <div className="w-full h-1/2">
+          <MainMap   />
+        
+        </div>
         </section>
     </div>
     
