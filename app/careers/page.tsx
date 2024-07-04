@@ -29,7 +29,7 @@ function page() {
     <h2 className="mb-4 text-4xl font-medium text-white">We work hard<span className="text-blue-600"> and play hard</span></h2>
     <p className="mb-6 text-white">
 
-At [Your Company Name], we believe in the perfect balance of hard work and fun. Our vibrant company culture fosters an environment where dedication and enjoyment go hand in hand. We understand that a happy, engaged team is a productive one, so we prioritize activities and benefits that support both professional excellence and personal well-being.
+At Procounts Kenya, we believe in the perfect balance of hard work and fun. Our vibrant company culture fosters an environment where dedication and enjoyment go hand in hand. We understand that a happy, engaged team is a productive one, so we prioritize activities and benefits that support both professional excellence and personal well-being.
 
 From team-building events and company outings to on-site recreational facilities and wellness programs, we ensure theres always an opportunity to unwind 
 and recharge. Whether its celebrating milestones, participating in friendly competitions, or enjoying our casual Fridays, we make sure that your time 
@@ -84,7 +84,7 @@ we play hard and work hard, ensuring that every day is both fulfilling and fun..
       <div className="self-center pr-5 lg:w-1/2">
         <p className="mb-4 text-base text-white">
 
-At our company, we prioritize the well-being and satisfaction of our employees by offering a comprehensive benefits package. Our benefits include competitive salaries, comprehensive health insurance plans, and generous paid time off to ensure a healthy work-life balance. We provide ongoing professional development opportunities, including training programs and tuition reimbursement, to support your career growth. Additionally, our flexible work arrangements, such as remote work options and flexible hours, accommodate your personal needs. We also offer retirement savings plans with company contributions to help secure your financial future. Join our team and enjoy a supportive work environment where your contributions are valued and your well-being is a top priority.</p>
+At our Procounts Kenya, we prioritize the well-being and satisfaction of our employees by offering a comprehensive benefits package. Our benefits include competitive salaries, comprehensive health insurance plans, and generous paid time off to ensure a healthy work-life balance. We provide ongoing professional development opportunities, including training programs and tuition reimbursement, to support your career growth. Additionally, our flexible work arrangements, such as remote work options and flexible hours, accommodate your personal needs. We also offer retirement savings plans with company contributions to help secure your financial future. Join our team and enjoy a supportive work environment where your contributions are valued and your well-being is a top priority.</p>
         {/* <p className="mb-4 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis et maiores ex numquam repellat? Iure, illum illo nisi explicabo deleniti amet sapiente repudiandae blanditiis ullam esse nostrum neque eveniet impedit nesciunt, sint inventore reprehenderit cumque! Vero dolor facere cumque ad.</p> */}
         <hr className="mt-8 h-2 w-20 transform border-none bg-teal-200" />
       </div>
