@@ -108,7 +108,7 @@ function Header2() {
         justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
                 <Link href="/" 
-                 className="-m-1.5 p-1.5 text-white text-2xl">
+                 className="-m-1.5 p-1.5 text-white text-xl">
                PROCOUNTS KENYA
               
                 
@@ -283,7 +283,7 @@ function Header2() {
             overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1
             sm:ring-gray-900/10">
                 <div className="flex items-center justify-between">
-                    <Link href="/" className="-m-1.5 p-1.5 text-white text-2xl">
+                    <Link href="/" className="-m-1.5 p-1.5 text-white text-xl">
                     PROCOUNTS KENYA
                         
                    
