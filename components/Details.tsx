@@ -17,8 +17,10 @@ function Details() {
     <h2 className="mb-10 max-w-lg text-white text-4xl font-bold leading-snug lg:text-4xl lg:leading-snug">A 
     <span className="text-indigo-600"> revolutionary</span> way to handle bookkeeping</h2>
     <div className="grid gap-y-12 gap-x-8 lg:grid-cols-1 text-white text-2xl">
-    Welcome to faAs, the ultimate solution for seamless and efficient bookkeeping tailored to meet the needs of modern businesses. Whether youre 
-    a small business owner, a freelancer, or an accountant, our app is designed to simplify your financial management processes, giving you more
+    Welcome to Procounts Kenya, the ultimate solution for seamless and 
+    efficient bookkeeping tailored to meet the needs of modern businesses. Whether youre 
+    a small business owner, a freelancer, or an accountant, our app is designed to
+     simplify your financial management processes, giving you more
      time to focus on what you do best—growing your business.
     </div>
   </div>
