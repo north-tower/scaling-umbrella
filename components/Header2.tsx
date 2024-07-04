@@ -109,7 +109,7 @@ function Header2() {
             <div className="flex lg:flex-1">
                 <Link href="/" 
                  className="-m-1.5 p-1.5 text-white text-2xl">
-                Virma Services
+               PROCOUNTS KENYA
               
                 
                 </Link>
@@ -284,7 +284,7 @@ function Header2() {
             sm:ring-gray-900/10">
                 <div className="flex items-center justify-between">
                     <Link href="/" className="-m-1.5 p-1.5 text-white text-2xl">
-                        faAs
+                    PROCOUNTS KENYA
                         
                    
                         </Link>
