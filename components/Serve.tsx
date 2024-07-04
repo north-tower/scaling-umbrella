@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Serve() {
@@ -33,7 +34,11 @@ function Serve() {
           <p className="text-gray-500 text-sm">Streamline your finances and focus on growing your business.</p>
 
           <div>
-            <a href="#" className="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700">Read more</a>
+            <Link href="/blog">
+            <p  className="font-semibold text-rose-500 transition duration-100 
+            hover:text-rose-600 active:text-rose-700">Read more</p>
+            
+            </Link>
           </div>
         </div>
       </article>
@@ -53,7 +58,11 @@ function Serve() {
           <p className="text-gray-500 text-sm">Keep your projects profitable with easy expense tracking and invoicing.</p>
 
           <div>
-            <a href="#" className="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700">Read more</a>
+          <Link href="/blog">
+            <p  className="font-semibold text-rose-500 transition duration-100 
+            hover:text-rose-600 active:text-rose-700">Read more</p>
+            
+            </Link>
           </div>
         </div>
       </article>
@@ -74,7 +83,11 @@ function Serve() {
           </p>
 
           <div>
-            <a href="#" className="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700">Read more</a>
+          <Link href="/blog">
+            <p  className="font-semibold text-rose-500 transition duration-100 
+            hover:text-rose-600 active:text-rose-700">Read more</p>
+            
+            </Link>
           </div>
         </div>
       </article>
