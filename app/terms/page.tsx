@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function page() {
@@ -137,16 +138,22 @@ Tailor-made financial reports that fit your business needs, providing clarity an
       <div className="flex flex-col border border-gray-100 py-20 px-12 shadow-lg">
         <p className="text-3xl font-bold">Try it now</p>
         <p className="mt-3 font-medium">Start the free trial no obligations</p>
-        <div className="mt-8 flex flex-col">
+        {/* <div className="mt-8 flex flex-col">
           <p className="text-sm text-gray-600">Business Email Address</p>
           <input className="mt-2 border bg-gray-50 py-4 px-4 outline-none ring-blue-300 focus:ring" type="text" name="email" id="email" placeholder="Enter your business email address" />
-        </div>
-        <label  className="mt-6 flex items-center">
+        </div> */}
+        {/* <label  className="mt-6 flex items-center">
           <input className="mr-4 h-6 w-6 accent-blue-600" type="checkbox" name="terms" id="" checked />
           <span className="">I agree to the <a className="font-medium text-blue-500" href="#">Terms and Conditions</a></span></label
-        >
-        <button className="mt-10 bg-gradient-to-r from-emerald-300 to-blue-500 px-6 py-3 text-white outline-none ring-blue-300 focus:ring">Continue</button>
-        <p className="mt-6 text-center text-sm">We may use your email in order to: verify your identity for security purposes. sell products to you. provide you with our services.</p>
+        > */}
+        <Link href="/contact">
+        <button className="mt-10 bg-gradient-to-r from-emerald-300 to-blue-500 px-6 py-3
+         text-white outline-none ring-blue-300 focus:ring">Continue</button>
+        </Link>
+
+        {/* <p className="mt-6 text-center text-sm">We may use your email in order to:
+           verify your identity for security purposes. sell products to you. provide you
+            with our services.</p> */}
       </div>
     </div>
   </div>
