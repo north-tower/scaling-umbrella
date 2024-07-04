@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "faAs",
+  title: "Procounts Kenya",
   description: "Finance as a service",
 };
 
