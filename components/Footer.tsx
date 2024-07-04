@@ -9,7 +9,10 @@ function Footer() {
   <div className="mx-auto grid text-gray-50 lg:grid-cols-12">
     <div className="flex flex-col items-start border-r border-b border-slate-500 py-8 px-5 sm:flex-row sm:px-8 md:pt-14 lg:col-span-7 xl:pl-32 2xl:pl-40">
      
-      <p className="pt-4 text-sm leading-6 tracking-wide sm:pl-10 sm:pt-0">Join our community and stay informed with the latest updates, tips, and best practices in bookkeeping and financial management. Connect with us to ensure your business's financial health and growth.</p>
+      <p className="pt-4 text-sm leading-6 tracking-wide sm:pl-10 sm:pt-0">Join our
+        community and stay informed with the latest updates, tips, and best practices in 
+        bookkeeping and financial management. Connect with us to ensure your businesss 
+        financial health and growth.</p>
     </div>
     <div className="px-5 py-8 sm:px-8 md:pt-14 lg:col-span-5 xl:pr-32 2xl:pr-40">
       <p className="font-medium text-orange-500">Demo</p>
