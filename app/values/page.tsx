@@ -29,7 +29,7 @@ Operational since 1967, our bookkeeping firm has been a trusted partner for busi
 
                 <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
 
-At our company, we are dedicated to providing exceptional bookkeeping services tailored to the unique needs of each client. With a rich history dating back to 1967, our team of experienced professionals combines deep industry knowledge with cutting-edge technology to ensure accurate, efficient, and compliant financial management. We understand the complexities of running a business, which is why we offer a comprehensive range of services, from expense and income tracking to financial forecasting and reporting. Our mission is to alleviate the burden of financial administration, allowing you to focus on what you do best—growing your business. Trust us to be your reliable partner in achieving financial clarity and success..</p>
+At Procounts Kenya, we are dedicated to providing exceptional bookkeeping services tailored to the unique needs of each client. With a rich history dating back to 1967, our team of experienced professionals combines deep industry knowledge with cutting-edge technology to ensure accurate, efficient, and compliant financial management. We understand the complexities of running a business, which is why we offer a comprehensive range of services, from expense and income tracking to financial forecasting and reporting. Our mission is to alleviate the burden of financial administration, allowing you to focus on what you do best—growing your business. Trust us to be your reliable partner in achieving financial clarity and success..</p>
             </div>
             </div>
         </div>  
@@ -39,7 +39,9 @@ At our company, we are dedicated to providing exceptional bookkeeping services t
     <div className="w-full"> 
       <h2 className="text-center text-3xl font-extrabold">Our Values</h2>
       <p className="mx-auto mb-4 max-w-xl py-2 text-center text-gray-600 sm:text-lg">
-      At our copamny, our values are the foundation of everything we do. We are committed to delivering excellence, fostering trust, and driving innovation to provide the best bookkeeping services for our clients.
+      At Procounts Kenya our values are the foundation of everything we do. 
+      We are committed to delivering excellence, fostering trust, and driving innovation to 
+      provide the best bookkeeping services for our clients.
         
         </p>
     </div>
