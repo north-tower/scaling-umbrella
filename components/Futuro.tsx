@@ -72,7 +72,7 @@ Harness the power of our specialized financial forecasting services to gain deep
     Learn More
   </button>
 </div>
-<div className="p-8 bg-white shadow-md rounded-lg">
+{/* <div className="p-8 bg-white shadow-md rounded-lg">
   <h3 className="text-4xl font-bold text-gray-800">What Our App Can Do</h3>
   <p className="mt-6 text-base text-gray-500">
     <span className="block mb-2"><strong>Compliance and Security:</strong> Adhere to relevant financial regulations (e.g., GDPR, PCI-DSS) with robust security measures.</span>
@@ -82,7 +82,7 @@ Harness the power of our specialized financial forecasting services to gain deep
   <button className="mt-4 rounded-lg bg-blue-700 px-6 py-2 text-white transition transform hover:-translate-y-1">
     Learn More
   </button>
-</div>
+</div> */}
     </div>
   </div>
 </section>
