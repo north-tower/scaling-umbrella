@@ -66,7 +66,7 @@ function Form() {
         <p className="mb-4">Sunday: Closed</p>
         <p className="mb-4">
           Email:
-          <a href="#" className="font-semibold underline">virma.bk@gmail.com</a>
+          <a href="#" className="font-semibold underline">procountskenya@gmail.com</a>
         </p>
         <p className="mb-4">
           Phone:
