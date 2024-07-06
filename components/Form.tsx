@@ -13,7 +13,7 @@ function Form() {
    const handleCategory = async (e: FormEvent) => {
     e.preventDefault();
     try {
-      window.location.href= `mailto:virma.bk@gmail.com?subject=${newCategory.subject}&body=Hello,my name is ${newCategory.name}. ${newCategory.message} (${newCategory.email})`
+      window.location.href= `mailto:procountskenya@gmail.com?subject=${newCategory.subject}&body=Hello,my name is ${newCategory.name}. ${newCategory.message} (${newCategory.email})`
     
    
     } catch (error) {
